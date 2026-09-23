@@ -24,6 +24,14 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
+      # `_generated/` is git-ignored (it's derived from _data/) and is normally produced by the
+      # `project: pre-render:` hook in _quarto.yml. But on a fresh checkout, Quarto resolves
+      # {{< include >}} directives while building its project file list, BEFORE that hook runs,
+      # so `quarto render` fails immediately if _generated/ doesn't already exist. Build it
+      # explicitly first so the directory is there before rendering starts.
+      - name: Build data
+        run: python scripts/build_data.py
+
       - name: Render site
         run: quarto render
 
