@@ -266,10 +266,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./platforms/index.html"> 
-<span class="menu-text">Platforms</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -337,42 +333,46 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Our themes follow the chain from physics to behavior: model the vehicle, estimate its state, control it, and sense the water around it.</p>
 <section id="modelling-control" class="level2">
-<h2 class="anchored" data-anchor-id="modelling-control">Dynamic modelling and control</h2>
-<p>Nonlinear six-degree-of-freedom models of our vehicles, built on standard marine-craft formulations, and controllers designed from them. Marjan-R1 has a derived model and open-loop pool validation. Closed-loop control is the next step.</p>
-<p><em>Platforms:</em> <a href="./platforms/marjan-r1.html">Marjan-R1</a></p>
-</section>
-<section id="state-estimation" class="level2">
-<h2 class="anchored" data-anchor-id="state-estimation">State estimation and system identification</h2>
-<p>Fusing inertial, pressure and sonar data, and fitting model parameters from experiments. Marjan-R1 is instrumented for system identification.</p>
-<p><span class="tc">[TO CONFIRM: current status of this work.]</span></p>
+<h2 class="anchored" data-anchor-id="modelling-control">1. Underwater vehicle modelling and control</h2>
+<p>How can we develop compact, full-stack 6-DoF ROVs with reliable non-linear dynamics for precise operations in confined coastal environments?</p>
+<p><strong>Platform:</strong> Marjan-R1 ROV · <strong>Status:</strong> Integrated prototype validated in controlled pool experiments · <strong>Researchers:</strong> Dr.&nbsp;Sarvat Ahmad, Dr.&nbsp;Ali AlBeladi, Syed Imtiaz Ali Shah, Masroor Khan</p>
+<p><strong>Current work and results</strong> We have built and modeled a nonlinear six-degree-of-freedom ROV. The vehicle acts as an experimental platform for system identification and closed-loop control. We recently completed open-loop pool validation, confirming static buoyancy trim and demonstrating strong coupling between axes, which motivates our ongoing closed-loop control development.</p>
+<p><strong><a href="./platforms/marjan-r1.html">Technical details</a> · <a href="./publications.html">Publications</a></strong></p>
 </section>
 <section id="energy-aware-autonomy" class="level2">
-<h2 class="anchored" data-anchor-id="energy-aware-autonomy">Energy-aware autonomy</h2>
-<p>Deciding when to act, not only how, to extend battery life. Our event-triggered glider control reduces energy use in simulation.</p>
-<p><em>Platforms:</em> <a href="./platforms/glider.html">Underwater glider</a></p>
+<h2 class="anchored" data-anchor-id="energy-aware-autonomy">2. Energy-efficient underwater autonomy</h2>
+<p>How can autonomous underwater gliders coordinate shared actuators to achieve precise heading changes while descending on a limited energy budget?</p>
+<p><strong>Platform:</strong> Underwater glider / SABR · <strong>Status:</strong> Modeled and simulated; hardware in development · <strong>Researchers:</strong> Dr.&nbsp;Ali AlBeladi, Julio Zevallos, Dr.&nbsp;Abdelhadi Aouaichia</p>
+<p><strong>Current work and results</strong> We have developed a turn-coordinated active disturbance rejection control (TC-ADRC) architecture for underactuated gliders. The kinematic turn coordinator limits the commanded sink rate so that the relative flow driving the turn lasts as long as the heading task requires.</p>
+<p><strong><a href="./platforms/glider.html">Technical details</a> · <a href="./publications.html">Publications</a></strong></p>
 </section>
-<section id="simulation-digital-twins" class="level2">
-<h2 class="anchored" data-anchor-id="simulation-digital-twins">Simulation and digital twins</h2>
-<p>Simulation as a way to test controllers safely before hardware trials.</p>
-<p><em>Platforms:</em> <a href="./platforms/simulation.html">Simulation and digital-twin environments</a></p>
-<p><span class="tc">[TO CONFIRM: scope.]</span></p>
+<section id="bioinspired-robotics" class="level2">
+<h2 class="anchored" data-anchor-id="bioinspired-robotics">3. Bioinspired marine robotics</h2>
+<p>How can we identify and control the coupled heading dynamics of bioinspired fish-like robots driven entirely by internal reaction wheels?</p>
+<p><strong>Platform:</strong> Bioinspired fish-like robots · <strong>Status:</strong> Hardware prototype validated in pool trials · <strong>Researchers:</strong> Joshymar A. Echeverria Ortiz, Dr.&nbsp;Ali AlBeladi, Abdullah Alavi</p>
+<p><strong>Current work and results</strong> We performed system identification of heading dynamics for a NACA-0040 internal-rotor fishlike robot directly from pool trial data. Using Parametric Weak-Form Sparse Regression (P-WSINDyc), we isolated the specific dynamic term responsible for heading drift under asymmetric actuation, providing a data-driven basis for future control design.</p>
+<p><strong><a href="./platforms/fish-robots.html">Technical details</a> · <a href="./publications.html">Publications</a></strong></p>
 </section>
 <section id="underwater-perception" class="level2">
-<h2 class="anchored" data-anchor-id="underwater-perception">Underwater perception</h2>
-<p>Camera-based pose estimation and visual sensing for underwater robots. In development.</p>
-<p><em>Platforms:</em> <a href="./platforms/pose-estimation.html">Three-camera pose-estimation system</a></p>
+<h2 class="anchored" data-anchor-id="underwater-perception">4. Underwater perception and state estimation</h2>
+<p>How can we accurately estimate the state of a compact marine vehicle by fusing low-cost onboard sensors in real-time?</p>
+<p><strong>Platform:</strong> Marjan-R1 ROV &amp; Pose-estimation system · <strong>Status:</strong> In development &amp; Pool testing · <strong>Researchers:</strong> Dr.&nbsp;Ali AlBeladi, Syed Imtiaz Ali Shah</p>
+<p><strong>Current work and results</strong> We are fusing inertial, pressure, and sonar data, and fitting model parameters from experiments. We have successfully applied an Unscented Kalman Filter (UKF) for real-time hydrodynamic parameter estimation on Marjan-R1 during pool tests, allowing for real-time state feedback.</p>
+<p><strong><a href="./platforms/pose-estimation.html">Technical details</a></strong></p>
 </section>
-<section id="hyperspectral-sensing" class="level2">
-<h2 class="anchored" data-anchor-id="hyperspectral-sensing">Hyperspectral sensing</h2>
-<p>Spectral imaging as a route to characterizing water and surfaces. Benchtop stage only.</p>
-<p><em>Platforms:</em> <a href="./platforms/hyperspectral.html">Hyperspectral imaging rig</a></p>
+<section id="environmental-sensing" class="level2">
+<h2 class="anchored" data-anchor-id="environmental-sensing">5. Marine and environmental sensing</h2>
+<p>How can spectral and geometric sensing identify materials, surfaces and environmental properties beyond conventional RGB imaging?</p>
+<p><strong>Platform:</strong> Benchtop hyperspectral imaging rig · <strong>Status:</strong> Laboratory system validated on the bench; not yet integrated with an underwater vehicle · <strong>Researchers:</strong> Dr.&nbsp;Ali AlBeladi</p>
+<p><strong>Current work and results</strong> Development of an open-source pushbroom HSI platform and depth-aware HSI–RGB-D fusion for material association and 3D mapping.</p>
+<p><strong><a href="./platforms/hyperspectral.html">Technical details</a></strong></p>
 </section>
-<section id="bioinspired-locomotion" class="level2">
-<h2 class="anchored" data-anchor-id="bioinspired-locomotion">Bioinspired locomotion</h2>
-<p>Fish-like propulsion and learned control.</p>
-<p><em>Platforms:</em> <a href="./platforms/fish-robots.html">Fish-like robots</a></p>
-<p><span class="tc">[TO CONFIRM: text depends on evidence supplied.]</span></p>
-<p>See all <a href="./publications.html">publications</a>, filterable by theme.</p>
+<section id="simulation-digital-twins" class="level2">
+<h2 class="anchored" data-anchor-id="simulation-digital-twins">6. Simulation and digital twins</h2>
+<p>How can we test advanced controllers safely and efficiently before deployment in physical hardware trials?</p>
+<p><strong>Platform:</strong> Simulation and digital-twin environments · <strong>Status:</strong> Active · <strong>Researchers:</strong> Dr.&nbsp;Abdelhadi Aouaichia, Julio Zevallos, Dr.&nbsp;Ali AlBeladi</p>
+<p><strong>Current work and results</strong> Simulation serves as the shared infrastructure supporting the other programs. We employ a replicable simulation-to-test framework using Gazebo/ROS 2 combined with CFD inputs to evaluate energy-aware control and disturbance rejection under simulated currents and noise.</p>
+<p><strong><a href="./platforms/simulation.html">Technical details</a> · <a href="./publications.html">Publications</a></strong></p>
 
 
 </section>

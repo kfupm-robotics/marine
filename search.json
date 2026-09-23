@@ -10,57 +10,50 @@
     "objectID": "research.html#modelling-control",
     "href": "research.html#modelling-control",
     "title": "Research",
-    "section": "Dynamic modelling and control",
-    "text": "Dynamic modelling and control\nNonlinear six-degree-of-freedom models of our vehicles, built on standard marine-craft formulations, and controllers designed from them. Marjan-R1 has a derived model and open-loop pool validation. Closed-loop control is the next step.\nPlatforms: Marjan-R1"
-  },
-  {
-    "objectID": "research.html#state-estimation",
-    "href": "research.html#state-estimation",
-    "title": "Research",
-    "section": "State estimation and system identification",
-    "text": "State estimation and system identification\nFusing inertial, pressure and sonar data, and fitting model parameters from experiments. Marjan-R1 is instrumented for system identification.\n[TO CONFIRM: current status of this work.]"
+    "section": "1. Underwater vehicle modelling and control",
+    "text": "1. Underwater vehicle modelling and control\nHow can we develop compact, full-stack 6-DoF ROVs with reliable non-linear dynamics for precise operations in confined coastal environments?\nPlatform: Marjan-R1 ROV · Status: Integrated prototype validated in controlled pool experiments · Researchers: Dr. Sarvat Ahmad, Dr. Ali AlBeladi, Syed Imtiaz Ali Shah, Masroor Khan\nCurrent work and results We have built and modeled a nonlinear six-degree-of-freedom ROV. The vehicle acts as an experimental platform for system identification and closed-loop control. We recently completed open-loop pool validation, confirming static buoyancy trim and demonstrating strong coupling between axes, which motivates our ongoing closed-loop control development.\nTechnical details · Publications"
   },
   {
     "objectID": "research.html#energy-aware-autonomy",
     "href": "research.html#energy-aware-autonomy",
     "title": "Research",
-    "section": "Energy-aware autonomy",
-    "text": "Energy-aware autonomy\nDeciding when to act, not only how, to extend battery life. Our event-triggered glider control reduces energy use in simulation.\nPlatforms: Underwater glider"
+    "section": "2. Energy-efficient underwater autonomy",
+    "text": "2. Energy-efficient underwater autonomy\nHow can autonomous underwater gliders coordinate shared actuators to achieve precise heading changes while descending on a limited energy budget?\nPlatform: Underwater glider / SABR · Status: Modeled and simulated; hardware in development · Researchers: Dr. Ali AlBeladi, Julio Zevallos, Dr. Abdelhadi Aouaichia\nCurrent work and results We have developed a turn-coordinated active disturbance rejection control (TC-ADRC) architecture for underactuated gliders. The kinematic turn coordinator limits the commanded sink rate so that the relative flow driving the turn lasts as long as the heading task requires.\nTechnical details · Publications"
   },
   {
-    "objectID": "research.html#simulation-digital-twins",
-    "href": "research.html#simulation-digital-twins",
+    "objectID": "research.html#bioinspired-robotics",
+    "href": "research.html#bioinspired-robotics",
     "title": "Research",
-    "section": "Simulation and digital twins",
-    "text": "Simulation and digital twins\nSimulation as a way to test controllers safely before hardware trials.\nPlatforms: Simulation and digital-twin environments\n[TO CONFIRM: scope.]"
+    "section": "3. Bioinspired marine robotics",
+    "text": "3. Bioinspired marine robotics\nHow can we identify and control the coupled heading dynamics of bioinspired fish-like robots driven entirely by internal reaction wheels?\nPlatform: Bioinspired fish-like robots · Status: Hardware prototype validated in pool trials · Researchers: Joshymar A. Echeverria Ortiz, Dr. Ali AlBeladi, Abdullah Alavi\nCurrent work and results We performed system identification of heading dynamics for a NACA-0040 internal-rotor fishlike robot directly from pool trial data. Using Parametric Weak-Form Sparse Regression (P-WSINDyc), we isolated the specific dynamic term responsible for heading drift under asymmetric actuation, providing a data-driven basis for future control design.\nTechnical details · Publications"
   },
   {
     "objectID": "research.html#underwater-perception",
     "href": "research.html#underwater-perception",
     "title": "Research",
-    "section": "Underwater perception",
-    "text": "Underwater perception\nCamera-based pose estimation and visual sensing for underwater robots. In development.\nPlatforms: Three-camera pose-estimation system"
+    "section": "4. Underwater perception and state estimation",
+    "text": "4. Underwater perception and state estimation\nHow can we accurately estimate the state of a compact marine vehicle by fusing low-cost onboard sensors in real-time?\nPlatform: Marjan-R1 ROV & Pose-estimation system · Status: In development & Pool testing · Researchers: Dr. Ali AlBeladi, Syed Imtiaz Ali Shah\nCurrent work and results We are fusing inertial, pressure, and sonar data, and fitting model parameters from experiments. We have successfully applied an Unscented Kalman Filter (UKF) for real-time hydrodynamic parameter estimation on Marjan-R1 during pool tests, allowing for real-time state feedback.\nTechnical details"
   },
   {
-    "objectID": "research.html#hyperspectral-sensing",
-    "href": "research.html#hyperspectral-sensing",
+    "objectID": "research.html#environmental-sensing",
+    "href": "research.html#environmental-sensing",
     "title": "Research",
-    "section": "Hyperspectral sensing",
-    "text": "Hyperspectral sensing\nSpectral imaging as a route to characterizing water and surfaces. Benchtop stage only.\nPlatforms: Hyperspectral imaging rig"
+    "section": "5. Marine and environmental sensing",
+    "text": "5. Marine and environmental sensing\nHow can spectral and geometric sensing identify materials, surfaces and environmental properties beyond conventional RGB imaging?\nPlatform: Benchtop hyperspectral imaging rig · Status: Laboratory system validated on the bench; not yet integrated with an underwater vehicle · Researchers: Dr. Ali AlBeladi\nCurrent work and results Development of an open-source pushbroom HSI platform and depth-aware HSI–RGB-D fusion for material association and 3D mapping.\nTechnical details"
   },
   {
-    "objectID": "research.html#bioinspired-locomotion",
-    "href": "research.html#bioinspired-locomotion",
+    "objectID": "research.html#simulation-digital-twins",
+    "href": "research.html#simulation-digital-twins",
     "title": "Research",
-    "section": "Bioinspired locomotion",
-    "text": "Bioinspired locomotion\nFish-like propulsion and learned control.\nPlatforms: Fish-like robots\n[TO CONFIRM: text depends on evidence supplied.]\nSee all publications, filterable by theme."
+    "section": "6. Simulation and digital twins",
+    "text": "6. Simulation and digital twins\nHow can we test advanced controllers safely and efficiently before deployment in physical hardware trials?\nPlatform: Simulation and digital-twin environments · Status: Active · Researchers: Dr. Abdelhadi Aouaichia, Julio Zevallos, Dr. Ali AlBeladi\nCurrent work and results Simulation serves as the shared infrastructure supporting the other programs. We employ a replicable simulation-to-test framework using Gazebo/ROS 2 combined with CFD inputs to evaluate energy-aware control and disturbance rejection under simulated currents and noise.\nTechnical details · Publications"
   },
   {
     "objectID": "platforms/simulation.html",
     "href": "platforms/simulation.html",
     "title": "Simulation and digital-twin environments",
     "section": "",
-    "text": "We build physics-based models of our vehicles and use simulation to develop and test controllers before hardware trials. The glider control result on this site comes from such a simulation.\n[TO CONFIRM: scope and tools.]"
+    "text": "We build physics-based models of our vehicles and use simulation to develop and test controllers before hardware trials. The glider control result on this site comes from such a simulation.\nThis platform supports our research program in Simulation and digital twins.\n[TO CONFIRM: scope and tools.]"
   },
   {
     "objectID": "platforms/simulation.html#specification",
@@ -74,7 +67,7 @@
     "href": "platforms/marjan-r1.html",
     "title": "Marjan-R1 ROV",
     "section": "",
-    "text": "Integrated prototype. Validated in controlled pool experiments.\nMarjan-R1 is an inspection-class remotely operated vehicle designed and built in-house: frame, pressure housings, electronics, firmware and control software. It is a research platform, so we can change any layer of it."
+    "text": "Integrated prototype. Validated in controlled pool experiments.\nMarjan-R1 is an inspection-class remotely operated vehicle designed and built in-house: frame, pressure housings, electronics, firmware and control software. It is a research platform, so we can change any layer of it.\nThis platform supports our research program in Underwater vehicle modelling and control."
   },
   {
     "objectID": "platforms/marjan-r1.html#design-notes",
@@ -88,7 +81,7 @@
     "href": "platforms/marjan-r1.html#specification",
     "title": "Marjan-R1 ROV",
     "section": "Specification",
-    "text": "Specification\n\nSpecification of Marjan-R1 ROV\n\n\nPurpose\nInspection and station keeping in controlled water; research platform for control and system identification.\n\n\nCurrent status\nIntegrated prototype validated in controlled pool experiments. No open-water operation yet.\n\n\nPropulsion\nEight vectored thrusters, six degrees of freedom\n\n\nDimensions\n567 × 324 × 352 mm\n\n\nMass\n14.5 kg, neutrally buoyant\n\n\nDesign depth rating\n100 m [TO CONFIRM basis: pressure test or component ratings]\n\n\nPower and link\nTethered power and communication; video and telemetry to a ground station\n\n\nSpeed\nUp to 2 knots\n\n\nDemonstrated\nWatertight operation, hydrostatic trim, thruster control, open-loop step responses, video and telemetry over tether (pool)\n\n\nTest environment\nLaboratory pool\n\n\nOpen research questions\nClosed-loop 6-DoF control; system identification; integration of a sensing payload; behavior in seawater\n\n\nRelated publications\nSee the Publications page (theme: dynamic modelling and control)\n\n\nLead researchers\nDr. Sarvat Ahmad, Dr. Ali AlBeladi\n\n\nLast updated\n[TO CONFIRM date]"
+    "text": "Specification\n\nSpecification of Marjan-R1 ROV\n\n\nPurpose\nInspection and station keeping in controlled water; research platform for control and system identification.\n\n\nCurrent status\nIntegrated prototype validated in controlled pool experiments. No open-water operation yet.\n\n\nPropulsion\nEight vectored thrusters, six degrees of freedom\n\n\nDimensions\n567 × 324 × 352 mm\n\n\nMass\n15.2 kg, neutrally buoyant\n\n\nDesign depth rating\n80-100 m\n\n\nPower and link\nTethered power and communication; video and telemetry to a ground station\n\n\nSpeed\nUp to 2 knots\n\n\nDemonstrated\nWatertight operation, hydrostatic trim, thruster control, open-loop step responses, video and telemetry over tether (pool); real-time hydrodynamic parameter estimation via UKF.\n\n\nTest environment\nLaboratory pool\n\n\nOpen research questions\nClosed-loop 6-DoF control; integration of a sensing payload; behavior in seawater\n\n\nRelated publications\nDevelopment and Dynamic Modelling of Marjan-R1 (ASCC 2026); Real-Time Hydrodynamic Parameter Estimation of an Over actuated 3-DOF ROV Using Unscented Kalman Filter\n\n\nLead researchers\nDr. Sarvat Ahmad, Dr. Ali AlBeladi, Syed Imtiaz Ali Shah, Masroor Khan\n\n\nLast updated\nSeptember 2026"
   },
   {
     "objectID": "platforms/marjan-r1.html#not-yet-demonstrated",
@@ -98,200 +91,39 @@
     "text": "Not yet demonstrated\nOpen-water or seawater operation, autonomy, and integrated water-quality sensing."
   },
   {
-    "objectID": "platforms/hyperspectral.html",
-    "href": "platforms/hyperspectral.html",
-    "title": "Hyperspectral imaging rig",
+    "objectID": "platforms/glider.html",
+    "href": "platforms/glider.html",
+    "title": "Underwater glider",
     "section": "",
-    "text": "Benchtop system. Not an underwater system.\nA pushbroom hyperspectral imaging system used on the laboratory bench to study spectral sensing of water and surfaces. It is a perception testbed. It is not fitted to any vehicle.\n[TO CONFIRM: what it has imaged and what it is used for.]"
+    "text": "Modeled and simulated. Hardware in development.\nUnderwater gliders change their buoyancy to dive and climb, and shift an internal mass to control pitch, so they use little energy. We study how to make them last longer on a battery.\nThis platform supports our research program in Energy-efficient underwater autonomy."
   },
   {
-    "objectID": "platforms/hyperspectral.html#specification",
-    "href": "platforms/hyperspectral.html#specification",
-    "title": "Hyperspectral imaging rig",
+    "objectID": "platforms/glider.html#what-we-have-shown-in-simulation",
+    "href": "platforms/glider.html#what-we-have-shown-in-simulation",
+    "title": "Underwater glider",
+    "section": "What we have shown, in simulation",
+    "text": "What we have shown, in simulation\nAn energy-aware, event-triggered geometric controller formulated on the special Euclidean group SE(3). In simulation on a Seawing-class glider model, it used more than 45% less energy and 31% fewer control updates than a conventional time-triggered controller over the same mission, with a modest increase in tracking error."
+  },
+  {
+    "objectID": "platforms/glider.html#in-development",
+    "href": "platforms/glider.html#in-development",
+    "title": "Underwater glider",
+    "section": "In development",
+    "text": "In development\nA compact prototype with a buoyancy engine and a moving-mass mechanism. It has not been wet tested."
+  },
+  {
+    "objectID": "platforms/glider.html#specification",
+    "href": "platforms/glider.html#specification",
+    "title": "Underwater glider",
     "section": "Specification",
-    "text": "Specification\n\nSpecification of Hyperspectral imaging rig\n\n\nPurpose\nStudy spectral sensing of water and surfaces on the bench\n\n\nCurrent status\nBenchtop system. Not an underwater system.\n\n\nDemonstrated\n[TO CONFIRM]\n\n\nTest environment\nLaboratory bench\n\n\nOpen research questions\n[TO CONFIRM]\n\n\nRelated publications\n[TO CONFIRM]\n\n\nLead researchers\nDr. Ali AlBeladi\n\n\nLast updated\n[TO CONFIRM date]"
+    "text": "Specification\n\nSpecification of Underwater glider\n\n\nPurpose\nEnergy-efficient, long-endurance observation of confined underwater regions\n\n\nCurrent status\nModeled and simulated. Hardware in development. No wet testing yet.\n\n\nActuation\nBuoyancy engine and moving-mass mechanism\n\n\nLength\nCompact architecture\n\n\nDemonstrated\nEnergy-aware event-triggered SE(3) control, in simulation only; turn-coordinated ADRC (TC-ADRC) in simulation.\n\n\nTest environment\nSimulation\n\n\nOpen research questions\nClosed-loop control on hardware; wet testing; energy characterization\n\n\nRelated publications\nTurn-Coordinated Active Disturbance Rejection Control for an Underactuated Underwater Glider (Ocean Engineering)\n\n\nLead researchers\nDr. Ali AlBeladi, Julio Zevallos, Dr. Abdelhadi Aouaichia\n\n\nLast updated\nSeptember 2026"
   },
   {
-    "objectID": "platforms/fish-robots.html",
-    "href": "platforms/fish-robots.html",
-    "title": "Bioinspired fish-like robots",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "[TO CONFIRM status line]\nFish-like propulsion can be quiet and maneuverable. We study a robot fish driven by a reaction wheel, with locomotion control learned by reinforcement learning.\n[TO CONFIRM: status line and demonstrated-capabilities text, pending your confirmation of what the photos show.]"
-  },
-  {
-    "objectID": "platforms/fish-robots.html#specification",
-    "href": "platforms/fish-robots.html#specification",
-    "title": "Bioinspired fish-like robots",
-    "section": "Specification",
-    "text": "Specification\n\nSpecification of Bioinspired fish-like robots\n\n\nPurpose\nEfficient, quiet, maneuverable fish-like locomotion\n\n\nCurrent status\n[TO CONFIRM]\n\n\nDemonstrated\n[TO CONFIRM: MuJoCo simulation and pool experiments]\n\n\nTest environment\n[TO CONFIRM]\n\n\nOpen research questions\n[TO CONFIRM]\n\n\nRelated publications\n[TO CONFIRM]\n\n\nLead researchers\n[TO CONFIRM]\n\n\nLast updated\n[TO CONFIRM date]"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
-    "section": "",
-    "text": "No news items yet."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "KFUPM Marine Robotics Lab",
-    "section": "",
-    "text": "IRC for Intelligent Manufacturing and Robotics · KFUPM\n\n\n\n\nWe design, model, build and test underwater vehicles for inspection, environmental monitoring and scientific observation. Our work runs from mathematical models and simulation, through integrated prototypes, to validation in controlled water.\n\n\nExplore our platforms Partner with us Join the lab\n\n\n\n\n\n\n\n\nMarjan-R1 during pool testing. A short video loop will replace this still once one is compressed and approved."
-  },
-  {
-    "objectID": "index.html#what-we-have-built",
-    "href": "index.html#what-we-have-built",
-    "title": "KFUPM Marine Robotics Lab",
-    "section": "What we have built",
-    "text": "What we have built\nIntegrated prototype. Validated in controlled pool experiments.Marjan-R1 ROVInspection-class, tethered, six-degree-of-freedom vehicle designed and built in-house.Modeled and simulated. Hardware in development.Underwater gliderBuoyancy-driven vehicle for energy-efficient, long-duration observation.[TO CONFIRM status line]Bioinspired fish-like robotsReaction-wheel robot fish with learning-based locomotion control."
-  },
-  {
-    "objectID": "index.html#problems-we-address",
-    "href": "index.html#problems-we-address",
-    "title": "KFUPM Marine Robotics Lab",
-    "section": "Problems we address",
-    "text": "Problems we address\nUnderwater structures and water bodies are hard to observe, and periodic surveys leave gaps between observations. We work on:\n\n\n\nSubmerged infrastructure\n\n\nInspecting piers, berths, walls and intakes without sending divers into the water.\n\n\n\n\nPorts, marinas and engineered waterways\n\n\nCondition records over time instead of occasional snapshots.\n\n\n\n\nCoastal and environmental monitoring\n\n\nWater-quality sensing is a target application. It is not yet integrated on any of our platforms."
-  },
-  {
-    "objectID": "index.html#featured-result",
-    "href": "index.html#featured-result",
-    "title": "KFUPM Marine Robotics Lab",
-    "section": "Featured result",
-    "text": "Featured result\n\n\n[FIGURE PLACEHOLDER: open-loop step responses, Marjan-R1 (own plot)]\n\n\nA dynamic model of a compact six-degree-of-freedom ROV\nWe derived a nonlinear model of Marjan-R1 and compared it with open-loop step responses from pool tests. The tests confirmed static buoyancy trim and showed strong coupling between axes, which is why we are developing closed-loop control. See the publications."
-  },
-  {
-    "objectID": "index.html#recent-news",
-    "href": "index.html#recent-news",
-    "title": "KFUPM Marine Robotics Lab",
-    "section": "Recent news",
-    "text": "Recent news\nAll news"
-  },
-  {
-    "objectID": "index.html#working-on-a-water-monitoring-or-inspection-problem",
-    "href": "index.html#working-on-a-water-monitoring-or-inspection-problem",
-    "title": "KFUPM Marine Robotics Lab",
-    "section": "Working on a water-monitoring or inspection problem?",
-    "text": "Working on a water-monitoring or inspection problem?\nTalk to us about a pilot development and validation project. See Applications & Partnerships."
-  },
-  {
-    "objectID": "ar/index.html",
-    "href": "ar/index.html",
-    "title": "مختبر الروبوتات البحرية",
-    "section": "",
-    "text": "مختبر الروبوتات البحرية · KFUPMالتطبيقات والشراكاتالتواصلEnglish"
-  },
-  {
-    "objectID": "ar/index.html#ما-بنيناه",
-    "href": "ar/index.html#ما-بنيناه",
-    "title": "مختبر الروبوتات البحرية",
-    "section": "ما بنيناه",
-    "text": "ما بنيناه\n\n\nنموذج أولي متكامل، جرى التحقق منه في تجارب حوض مُتحكَّم بها\n\nمركبة «مرجان-R1» المتحكَّم بها عن بُعد\n\n\nمركبة للفحص مزوّدة بثمانية دافعات موجَّهة، صُمِّمت وصُنِعت داخل المختبر.\n\n\n\nمُنمذجة ومحاكاة؛ العتاد قيد التطوير\n\nالمركبة الانزلاقية تحت الماء\n\n\nمركبة تعتمد على تغيير الطفو لرصد طويل الأمد بكفاءة في استهلاك الطاقة.\n\n\n\n[للتأكيد]\n\nروبوتات مستوحاة من الأسماك\n\n\nروبوت سمكة بعجلة تفاعلية وتحكم حركي قائم على التعلّم."
-  },
-  {
-    "objectID": "ar/index.html#المشكلات-التي-نعالجها",
-    "href": "ar/index.html#المشكلات-التي-نعالجها",
-    "title": "مختبر الروبوتات البحرية",
-    "section": "المشكلات التي نعالجها",
-    "text": "المشكلات التي نعالجها\nيصعب رصد المنشآت والمسطحات المائية تحت الماء، وتترك المسوحات الدورية فجوات بين المشاهدات. نعمل على:\n\n\n\nالمنشآت المغمورة\n\n\nفحص الأرصفة والجدران ومآخذ المياه دون إنزال غواصين إلى الماء.\n\n\n\n\nالموانئ والمرافئ والممرات المائية المُنشأة\n\n\nسجلات لحالة المنشأة عبر الزمن بدلًا من لقطات متفرقة.\n\n\n\n\nالرصد الساحلي والبيئي\n\n\nاستشعار جودة المياه تطبيق مستهدف، وهو غير مدمج حاليًا في أي من منصّاتنا."
-  },
-  {
-    "objectID": "ar/index.html#نتيجة-مميزة",
-    "href": "ar/index.html#نتيجة-مميزة",
-    "title": "مختبر الروبوتات البحرية",
-    "section": "نتيجة مميّزة",
-    "text": "نتيجة مميّزة\n\nنموذج ديناميكي لمركبة صغيرة ذات ست درجات حرية\nاشتققنا نموذجًا غير خطي لمرجان-R1 وقارنّاه باستجابات الخطوة في الحلقة المفتوحة المسجّلة في تجارب الحوض."
-  },
-  {
-    "objectID": "ar/index.html#هل-لديكم-مشكلة-في-رصد-المياه-أو-فحص-المنشآت",
-    "href": "ar/index.html#هل-لديكم-مشكلة-في-رصد-المياه-أو-فحص-المنشآت",
-    "title": "مختبر الروبوتات البحرية",
-    "section": "هل لديكم مشكلة في رصد المياه أو فحص المنشآت؟",
-    "text": "هل لديكم مشكلة في رصد المياه أو فحص المنشآت؟\nتحدّثوا إلينا عن مشروع تطوير تجريبي وتحقق ميداني مشترك. راجعوا صفحة التطبيقات والشراكات."
-  },
-  {
-    "objectID": "ar/applications.html",
-    "href": "ar/applications.html",
-    "title": "التطبيقات والشراكات",
-    "section": "",
-    "text": "مختبر الروبوتات البحرية · KFUPMالتطبيقات والشراكاتالتواصلEnglish\nتُفحص كثير من المنشآت والمسطحات المائية عبر حملات غوص دورية أو مسوحات بالسفن، وهذه تترك فجوات بين المشاهدات. نبني المركبات والنماذج وأنظمة الاستشعار اللازمة لسدّ هذه الفجوات، ونرغب في اختبارها على مشكلات تشغيلية حقيقية."
-  },
-  {
-    "objectID": "ar/applications.html#المشكلات-التي-نعمل-عليها",
-    "href": "ar/applications.html#المشكلات-التي-نعمل-عليها",
-    "title": "التطبيقات والشراكات",
-    "section": "المشكلات التي نعمل عليها",
-    "text": "المشكلات التي نعمل عليها\n\n\n\nفحص المنشآت المغمورة\n\n\nتحتاج الأرصفة وجدران القنوات ومآخذ المياه إلى تقييم تحت السطح. يمكن للفحص الروبوتي توثيق حالتها وتقليل الحاجة إلى نزول الغواصين.\n\n\n\n\nالموانئ والمرافئ\n\n\nسجلات دورية لحالة الأرصفة والأحواض.\n\n\n\n\nالممرات والمسطحات المائية المُنشأة\n\n\nأحواض وبحيرات وقنوات تتغيّر ظروفها مع الزمن، وتهم فيها الاتجاهات أكثر من مسح واحد.\n\n\n\n\nالرصد الساحلي والبيئي\n\n\nمراقبة متكررة للمياه الساحلية. استشعار جودة المياه تطبيق مستهدف وليس قدرة قائمة اليوم، ولم يُثبت بعد رصد ذاتي.\n\n\n\n\nالتحقق من المستشعرات وبرمجيات الاستقلالية\n\n\nبيئة مُتحكَّم بها لاختبار المستشعرات ومقدِّرات الحالة وبرمجيات التحكم على مركبة حقيقية قبل الاستخدام الميداني."
-  },
-  {
-    "objectID": "ar/applications.html#لماذا-العمل-معنا",
-    "href": "ar/applications.html#لماذا-العمل-معنا",
-    "title": "التطبيقات والشراكات",
-    "section": "لماذا العمل معنا",
-    "text": "لماذا العمل معنا\n\nنمتلك المنظومة كاملة. التصميم الميكانيكي والإلكترونيات والبرمجيات الثابتة والنماذج وبرمجيات التحكم من تطويرنا، فيمكن تكييف المركبة لتناسب المشكلة.\nتطوير قائم على النماذج. لكل مركبة نموذج ديناميكي ومحاكاة، فيُختبر السلوك قبل تجربته في الماء.\nوضوح في بيان الحالة. نوضح ما جرى إثباته وأين، وما لم يُثبت بعد.\nمختبر جامعي بمسار نحو المنتج. نجري بحثًا أكاديميًا، ونعتزم تسويق قدراتنا في الروبوتات تحت الماء، مستقبلًا عبر شركة ناشئة منبثقة. [للتأكيد]"
-  },
-  {
-    "objectID": "ar/applications.html#كيف-يمكننا-العمل-معا",
-    "href": "ar/applications.html#كيف-يمكننا-العمل-معا",
-    "title": "التطبيقات والشراكات",
-    "section": "كيف يمكننا العمل معًا",
-    "text": "كيف يمكننا العمل معًا\n\nدراسة جدوى فنية\nعرض عملي في بيئة مُتحكَّم بها\nبحث ممول\nنموذج أولي مشترك التطوير\nتطوير تجريبي وتحقق مع شريك تشغيلي\nترخيص التقنية\nبحث طلابي ممول أو تدريب"
-  },
-  {
-    "objectID": "ar/applications.html#التواصل",
-    "href": "ar/applications.html#التواصل",
-    "title": "التطبيقات والشراكات",
-    "section": "التواصل",
-    "text": "التواصل\nراسلونا مع وصف موجز للمشكلة وموقع العمل، وسنرد عليكم بالخطوات التالية.\n[TO CONFIRM contact email]"
-  },
-  {
-    "objectID": "applications.html",
-    "href": "applications.html",
-    "title": "Applications & Partnerships",
-    "section": "",
-    "text": "Many underwater assets and water bodies are checked by periodic dive campaigns or vessel surveys. Those leave gaps between observations. We are building the vehicles, models and sensing needed to close those gaps, and we want to test them against real operating problems."
-  },
-  {
-    "objectID": "applications.html#problems-we-work-on",
-    "href": "applications.html#problems-we-work-on",
-    "title": "Applications & Partnerships",
-    "section": "Problems we work on",
-    "text": "Problems we work on\n\n\n\nSubmerged infrastructure inspection\n\n\nPiers, berths, canal walls, revetments and intake structures need assessment below the surface. Robotic inspection can document their condition and reduce the need for divers to enter the water.\n\n\n\n\nPorts and marinas\n\n\nRegular condition records of berths and basins.\n\n\n\n\nEngineered waterways and water bodies\n\n\nEnclosed basins, lagoons and canals where conditions change over time, and trends matter more than a single survey.\n\n\n\n\nCoastal and environmental monitoring\n\n\nRepeated observation of coastal water. Water-quality sensing is a target application. It is not yet integrated on any of our platforms, and no autonomous monitoring has been demonstrated.\n\n\n\n\nSensor and autonomy validation\n\n\nA controlled setting to test sensors, estimators and control software on a real vehicle before field use."
-  },
-  {
-    "objectID": "applications.html#why-work-with-us",
-    "href": "applications.html#why-work-with-us",
-    "title": "Applications & Partnerships",
-    "section": "Why work with us",
-    "text": "Why work with us\n\nWe own the whole stack. Mechanical design, electronics, firmware, models and control software are ours, so the vehicle can be changed to suit the problem. Marjan-R1 is not a modified commercial platform.\nModel-based development. Each vehicle comes with a dynamic model and simulation, so behavior is tested before it is tried in water.\nOpen about status. We tell you what has been demonstrated and where, and what has not.\nA university lab with a path to product. We do academic research and intend to commercialize our underwater robotics capability, eventually through a spin-off. [TO CONFIRM wording]\n\n[TO CONFIRM: add one supportable statement on what existing contractors cannot readily provide.]"
-  },
-  {
-    "objectID": "applications.html#how-we-can-work-together",
-    "href": "applications.html#how-we-can-work-together",
-    "title": "Applications & Partnerships",
-    "section": "How we can work together",
-    "text": "How we can work together\n\nTechnical feasibility study\nControlled-environment demonstration\nSponsored research\nCo-developed prototype\nPilot development and validation with an operational partner\nTechnology licensing\nSponsored student research or internships"
-  },
-  {
-    "objectID": "applications.html#contact",
-    "href": "applications.html#contact",
-    "title": "Applications & Partnerships",
-    "section": "Contact",
-    "text": "Contact\nEmail us with a short description of your problem and site. We will reply with next steps.\n[TO CONFIRM contact email]"
-  },
-  {
-    "objectID": "ar/contact.html",
-    "href": "ar/contact.html",
-    "title": "التواصل",
-    "section": "",
-    "text": "مختبر الروبوتات البحرية · KFUPMالتطبيقات والشراكاتالتواصلEnglish\n\nمختبر الروبوتات البحرية\nمركز أبحاث الروبوتات المتكاملة والتصنيع الذكي\nجامعة الملك فهد للبترول والمعادن (KFUPM)\nالظهران 31261، المملكة العربية السعودية\nالبريد الإلكتروني\n[TO CONFIRM contact email]\nلاستفسارات الشراكة، يرجى وصف المشكلة والموقع والإطار الزمني."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "KFUPM Marine Robotics Lab\nIRC for Intelligent Manufacturing and Robotics\nKing Fahd University of Petroleum & Minerals\nDhahran 31261, Saudi Arabia\nEmail\n[TO CONFIRM contact email]\nFor partnership questions, describe the problem, the site and the timeline. For study or research positions, see Join the lab."
+    "text": "LeadershipDr. Sarvat AhmadPrincipal InvestigatorControl & Instrumentation EngineeringDr. Ali AlBeladiCo-Principal InvestigatorElectrical EngineeringResearch focus. Underwater vehicles, bioinspired fish-like robotics, hyperspectral imaging systemsPostdoctoral researchersDr. Abdelhadi AouaichiaPostdoctoral ResearcherPhD studentsJulio ZevallosPhD StudentResearch focus. Modelling, control, underwater glidersTBTarique Bin HamidPhD StudentResearch focus. Modelling, system identification, ROVAdeel BashirPhD StudentResearch focus. State estimation, sensor fusion, underwater gliderMMMd. Masudur RahmanPhD StudentResearch focus. Control, ROVYoussief MorsyPhD StudentResearch focus. Vision-based control, ROVMS studentsAbdullah AlaviMS StudentResearch focus. Reinforcement learning, bioinspired roboticsJoshymar EcheverriaMS StudentResearch focus. Model-based control, bioinspired roboticsResearch engineersMKMasroor KhanResearch Engineer, Electro-MechanicalIAImtiaz AliResearch Engineer, Embedded Systems"
   },
   {
     "objectID": "join.html",
@@ -336,67 +168,214 @@
     "text": "Contact\n[TO CONFIRM contact email]"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "LeadershipDr. Sarvat AhmadPrincipal InvestigatorControl & Instrumentation EngineeringDr. Ali AlBeladiCo-Principal InvestigatorElectrical EngineeringResearch focus. Underwater vehicles, bioinspired fish-like robotics, hyperspectral imaging systemsPostdoctoral researchersDr. Abdelhadi AouaichiaPostdoctoral ResearcherPhD studentsJulio ZevallosPhD StudentResearch focus. Modelling, control, underwater glidersTBTarique Bin HamidPhD StudentResearch focus. Modelling, system identification, ROVAdeel BashirPhD StudentResearch focus. State estimation, sensor fusion, underwater gliderMMMd. Masudur RahmanPhD StudentResearch focus. Control, ROVYoussief MorsyPhD StudentResearch focus. Vision-based control, ROVMS studentsAbdullah AlaviMS StudentResearch focus. Reinforcement learning, bioinspired roboticsJoshymar EcheverriaMS StudentResearch focus. Model-based control, bioinspired roboticsResearch engineersMKMasroor KhanResearch Engineer, Electro-MechanicalIAImtiaz AliResearch Engineer, Embedded Systems"
+    "text": "KFUPM Marine Robotics Lab\nIRC for Intelligent Manufacturing and Robotics\nKing Fahd University of Petroleum & Minerals\nDhahran 31261, Saudi Arabia\nEmail\n[TO CONFIRM contact email]\nFor partnership questions, describe the problem, the site and the timeline. For study or research positions, see Join the lab."
   },
   {
-    "objectID": "platforms/glider.html",
-    "href": "platforms/glider.html",
-    "title": "Underwater glider",
+    "objectID": "ar/contact.html",
+    "href": "ar/contact.html",
+    "title": "التواصل",
     "section": "",
-    "text": "Modeled and simulated. Hardware in development.\nUnderwater gliders change their buoyancy to dive and climb, and shift an internal mass to control pitch, so they use little energy. We study how to make them last longer on a battery."
+    "text": "مختبر الروبوتات البحرية · KFUPMالتطبيقات والشراكاتالتواصلEnglish\n\nمختبر الروبوتات البحرية\nمركز أبحاث الروبوتات المتكاملة والتصنيع الذكي\nجامعة الملك فهد للبترول والمعادن (KFUPM)\nالظهران 31261، المملكة العربية السعودية\nالبريد الإلكتروني\n[TO CONFIRM contact email]\nلاستفسارات الشراكة، يرجى وصف المشكلة والموقع والإطار الزمني."
   },
   {
-    "objectID": "platforms/glider.html#what-we-have-shown-in-simulation",
-    "href": "platforms/glider.html#what-we-have-shown-in-simulation",
-    "title": "Underwater glider",
-    "section": "What we have shown, in simulation",
-    "text": "What we have shown, in simulation\nAn energy-aware, event-triggered geometric controller formulated on the special Euclidean group SE(3). In simulation on a Seawing-class glider model, it used more than 45% less energy and 31% fewer control updates than a conventional time-triggered controller over the same mission, with a modest increase in tracking error."
+    "objectID": "applications.html",
+    "href": "applications.html",
+    "title": "Applications & Partnerships",
+    "section": "",
+    "text": "Many underwater assets and water bodies are checked by periodic dive campaigns or vessel surveys. Those leave gaps between observations. We are building the vehicles, models and sensing needed to close those gaps, and we want to test them against real operating problems."
   },
   {
-    "objectID": "platforms/glider.html#in-development",
-    "href": "platforms/glider.html#in-development",
-    "title": "Underwater glider",
-    "section": "In development",
-    "text": "In development\nA compact prototype with a buoyancy engine and a moving-mass mechanism. It has not been wet tested."
+    "objectID": "applications.html#problems-we-work-on",
+    "href": "applications.html#problems-we-work-on",
+    "title": "Applications & Partnerships",
+    "section": "Problems we work on",
+    "text": "Problems we work on\n\n\n\nSubmerged infrastructure inspection\n\n\nPiers, berths, canal walls, revetments and intake structures need assessment below the surface. Robotic inspection can document their condition and reduce the need for divers to enter the water.\n\n\n\n\nPorts and marinas\n\n\nRegular condition records of berths and basins.\n\n\n\n\nEngineered waterways and water bodies\n\n\nEnclosed basins, lagoons and canals where conditions change over time, and trends matter more than a single survey.\n\n\n\n\nCoastal and environmental monitoring\n\n\nRepeated observation of coastal water. Water-quality sensing is a target application. It is not yet integrated on any of our platforms, and no autonomous monitoring has been demonstrated.\n\n\n\n\nSensor and autonomy validation\n\n\nA controlled setting to test sensors, estimators and control software on a real vehicle before field use."
   },
   {
-    "objectID": "platforms/glider.html#specification",
-    "href": "platforms/glider.html#specification",
-    "title": "Underwater glider",
+    "objectID": "applications.html#why-work-with-us",
+    "href": "applications.html#why-work-with-us",
+    "title": "Applications & Partnerships",
+    "section": "Why work with us",
+    "text": "Why work with us\n\nWe own the whole stack. Mechanical design, electronics, firmware, models and control software are ours, so the vehicle can be changed to suit the problem. Marjan-R1 is not a modified commercial platform.\nModel-based development. Each vehicle comes with a dynamic model and simulation, so behavior is tested before it is tried in water.\nOpen about status. We tell you what has been demonstrated and where, and what has not.\nA university lab with a path to product. We do academic research and intend to commercialize our underwater robotics capability, supporting the region’s strategic interests in environmental monitoring and coastal protection.\n\nWhat we offer that existing contractors may not: Existing commercial solutions typically rely on tethered ROVs or propeller-driven AUVs that struggle with high energy consumption. This limits their ability to sustain long-term, continuous observation in confined areas. Our platforms are built for persistent, energy-efficient operation without human intervention."
+  },
+  {
+    "objectID": "applications.html#how-we-can-work-together",
+    "href": "applications.html#how-we-can-work-together",
+    "title": "Applications & Partnerships",
+    "section": "How we can work together",
+    "text": "How we can work together\n\nTechnical feasibility study\nControlled-environment demonstration\nSponsored research\nCo-developed prototype\nPilot development and validation with an operational partner\nTechnology licensing\nSponsored student research or internships"
+  },
+  {
+    "objectID": "applications.html#contact",
+    "href": "applications.html#contact",
+    "title": "Applications & Partnerships",
+    "section": "Contact",
+    "text": "Contact\nEmail us with a short description of your problem and site. We will reply with next steps.\n[TO CONFIRM contact email]"
+  },
+  {
+    "objectID": "ar/applications.html",
+    "href": "ar/applications.html",
+    "title": "التطبيقات والشراكات",
+    "section": "",
+    "text": "مختبر الروبوتات البحرية · KFUPMالتطبيقات والشراكاتالتواصلEnglish\nتُفحص كثير من المنشآت والمسطحات المائية عبر حملات غوص دورية أو مسوحات بالسفن، وهذه تترك فجوات بين المشاهدات. نبني المركبات والنماذج وأنظمة الاستشعار اللازمة لسدّ هذه الفجوات، ونرغب في اختبارها على مشكلات تشغيلية حقيقية."
+  },
+  {
+    "objectID": "ar/applications.html#المشكلات-التي-نعمل-عليها",
+    "href": "ar/applications.html#المشكلات-التي-نعمل-عليها",
+    "title": "التطبيقات والشراكات",
+    "section": "المشكلات التي نعمل عليها",
+    "text": "المشكلات التي نعمل عليها\n\n\n\nفحص المنشآت المغمورة\n\n\nتحتاج الأرصفة وجدران القنوات ومآخذ المياه إلى تقييم تحت السطح. يمكن للفحص الروبوتي توثيق حالتها وتقليل الحاجة إلى نزول الغواصين.\n\n\n\n\nالموانئ والمرافئ\n\n\nسجلات دورية لحالة الأرصفة والأحواض.\n\n\n\n\nالممرات والمسطحات المائية المُنشأة\n\n\nأحواض وبحيرات وقنوات تتغيّر ظروفها مع الزمن، وتهم فيها الاتجاهات أكثر من مسح واحد.\n\n\n\n\nالرصد الساحلي والبيئي\n\n\nمراقبة متكررة للمياه الساحلية. استشعار جودة المياه تطبيق مستهدف وليس قدرة قائمة اليوم، ولم يُثبت بعد رصد ذاتي.\n\n\n\n\nالتحقق من المستشعرات وبرمجيات الاستقلالية\n\n\nبيئة مُتحكَّم بها لاختبار المستشعرات ومقدِّرات الحالة وبرمجيات التحكم على مركبة حقيقية قبل الاستخدام الميداني."
+  },
+  {
+    "objectID": "ar/applications.html#لماذا-العمل-معنا",
+    "href": "ar/applications.html#لماذا-العمل-معنا",
+    "title": "التطبيقات والشراكات",
+    "section": "لماذا العمل معنا",
+    "text": "لماذا العمل معنا\n\nنمتلك المنظومة كاملة. التصميم الميكانيكي والإلكترونيات والبرمجيات الثابتة والنماذج وبرمجيات التحكم من تطويرنا، فيمكن تكييف المركبة لتناسب المشكلة.\nتطوير قائم على النماذج. لكل مركبة نموذج ديناميكي ومحاكاة، فيُختبر السلوك قبل تجربته في الماء.\nوضوح في بيان الحالة. نوضح ما جرى إثباته وأين، وما لم يُثبت بعد.\nمختبر جامعي بمسار نحو المنتج. نجري بحثًا أكاديميًا، ونعتزم تسويق قدراتنا في الروبوتات تحت الماء، مستقبلًا عبر شركة ناشئة منبثقة. [للتأكيد]"
+  },
+  {
+    "objectID": "ar/applications.html#كيف-يمكننا-العمل-معا",
+    "href": "ar/applications.html#كيف-يمكننا-العمل-معا",
+    "title": "التطبيقات والشراكات",
+    "section": "كيف يمكننا العمل معًا",
+    "text": "كيف يمكننا العمل معًا\n\nدراسة جدوى فنية\nعرض عملي في بيئة مُتحكَّم بها\nبحث ممول\nنموذج أولي مشترك التطوير\nتطوير تجريبي وتحقق مع شريك تشغيلي\nترخيص التقنية\nبحث طلابي ممول أو تدريب"
+  },
+  {
+    "objectID": "ar/applications.html#التواصل",
+    "href": "ar/applications.html#التواصل",
+    "title": "التطبيقات والشراكات",
+    "section": "التواصل",
+    "text": "التواصل\nراسلونا مع وصف موجز للمشكلة وموقع العمل، وسنرد عليكم بالخطوات التالية.\n[TO CONFIRM contact email]"
+  },
+  {
+    "objectID": "ar/index.html",
+    "href": "ar/index.html",
+    "title": "روبوتات بحرية وأنظمة استشعار للمياه الساحلية والمنشآت المائية",
+    "section": "",
+    "text": "مختبر الروبوتات البحرية · KFUPMالتطبيقات والشراكاتالتواصلEnglish"
+  },
+  {
+    "objectID": "ar/index.html#أبحاث-مبنية-على-أنظمة-حقيقية",
+    "href": "ar/index.html#أبحاث-مبنية-على-أنظمة-حقيقية",
+    "title": "روبوتات بحرية وأنظمة استشعار للمياه الساحلية والمنشآت المائية",
+    "section": "أبحاث مبنية على أنظمة حقيقية",
+    "text": "أبحاث مبنية على أنظمة حقيقية\n\n\n\nمنصتنا التجريبية الرئيسية\n\n\nتدعم مركبة مرجان-R1 أبحاثنا في النمذجة الديناميكية، تحديد الأنظمة، التحكم، الاستشعار، والفحص تحت الماء.\n\n\nالتفاصيل التقنية استكشف جميع البرامج البحثية"
+  },
+  {
+    "objectID": "ar/index.html#المشكلات-التي-نعالجها",
+    "href": "ar/index.html#المشكلات-التي-نعالجها",
+    "title": "روبوتات بحرية وأنظمة استشعار للمياه الساحلية والمنشآت المائية",
+    "section": "المشكلات التي نعالجها",
+    "text": "المشكلات التي نعالجها\nيصعب رصد المنشآت والمسطحات المائية تحت الماء، وتترك المسوحات الدورية فجوات بين المشاهدات. نعمل على:\n\n\n\nالمنشآت المغمورة\n\n\nفحص الأرصفة والجدران ومآخذ المياه دون إنزال غواصين إلى الماء.\n\n\n\n\nالموانئ والمرافئ والممرات المائية المُنشأة\n\n\nسجلات لحالة المنشأة عبر الزمن بدلًا من لقطات متفرقة.\n\n\n\n\nالرصد الساحلي والبيئي\n\n\nاستشعار جودة المياه تطبيق مستهدف، وهو غير مدمج حاليًا في أي من منصّاتنا."
+  },
+  {
+    "objectID": "ar/index.html#نتيجة-مميزة",
+    "href": "ar/index.html#نتيجة-مميزة",
+    "title": "روبوتات بحرية وأنظمة استشعار للمياه الساحلية والمنشآت المائية",
+    "section": "نتيجة مميّزة",
+    "text": "نتيجة مميّزة\n\nنموذج ديناميكي لمركبة صغيرة ذات ست درجات حرية\nاشتققنا نموذجًا غير خطي لمرجان-R1 وقارنّاه باستجابات الخطوة في الحلقة المفتوحة المسجّلة في تجارب الحوض."
+  },
+  {
+    "objectID": "ar/index.html#هل-لديكم-مشكلة-في-رصد-المياه-أو-فحص-المنشآت",
+    "href": "ar/index.html#هل-لديكم-مشكلة-في-رصد-المياه-أو-فحص-المنشآت",
+    "title": "روبوتات بحرية وأنظمة استشعار للمياه الساحلية والمنشآت المائية",
+    "section": "هل لديكم مشكلة في رصد المياه أو فحص المنشآت؟",
+    "text": "هل لديكم مشكلة في رصد المياه أو فحص المنشآت؟\nتحدّثوا إلينا عن مشروع تطوير تجريبي وتحقق ميداني مشترك. راجعوا صفحة التطبيقات والشراكات."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marine robots and sensing systems for coastal and engineered waters",
+    "section": "",
+    "text": "IRC for Intelligent Manufacturing and Robotics · KFUPM\n\n\n\n\nWe design, model, build and test underwater vehicles for inspection, environmental monitoring and scientific observation. Our work runs from mathematical models and simulation, through integrated prototypes, to validation in controlled water.\n\n\nExplore our research Partner with us Join the lab\n\n\n\n\n\n\n\n\nMarjan-R1 during pool testing. A short video loop will replace this still once one is compressed and approved."
+  },
+  {
+    "objectID": "index.html#research-grounded-in-real-systems",
+    "href": "index.html#research-grounded-in-real-systems",
+    "title": "Marine robots and sensing systems for coastal and engineered waters",
+    "section": "Research grounded in real systems",
+    "text": "Research grounded in real systems\nOur flagship experimental platformMarjan-R1 supports our work in dynamic modelling, system identification, control, sensing and underwater inspection.Technical detailsExplore all research programs"
+  },
+  {
+    "objectID": "index.html#problems-we-address",
+    "href": "index.html#problems-we-address",
+    "title": "Marine robots and sensing systems for coastal and engineered waters",
+    "section": "Problems we address",
+    "text": "Problems we address\nUnderwater structures and water bodies are hard to observe, and periodic surveys leave gaps between observations. We work on:\n\n\n\nSubmerged infrastructure\n\n\nInspecting piers, berths, walls and intakes without sending divers into the water.\n\n\n\n\nPorts, marinas and engineered waterways\n\n\nCondition records over time instead of occasional snapshots.\n\n\n\n\nCoastal and environmental monitoring\n\n\nWater-quality sensing is a target application. It is not yet integrated on any of our platforms."
+  },
+  {
+    "objectID": "index.html#featured-result",
+    "href": "index.html#featured-result",
+    "title": "Marine robots and sensing systems for coastal and engineered waters",
+    "section": "Featured result",
+    "text": "Featured result\n\n\n[FIGURE PLACEHOLDER: open-loop step responses, Marjan-R1 (own plot)]\n\n\nA dynamic model of a compact six-degree-of-freedom ROV\nWe derived a nonlinear model of Marjan-R1 and compared it with open-loop step responses from pool tests. The tests confirmed static buoyancy trim and showed strong coupling between axes, which is why we are developing closed-loop control. See the publications."
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Marine robots and sensing systems for coastal and engineered waters",
+    "section": "Recent news",
+    "text": "Recent news\nAll news"
+  },
+  {
+    "objectID": "index.html#working-on-a-water-monitoring-or-inspection-problem",
+    "href": "index.html#working-on-a-water-monitoring-or-inspection-problem",
+    "title": "Marine robots and sensing systems for coastal and engineered waters",
+    "section": "Working on a water-monitoring or inspection problem?",
+    "text": "Working on a water-monitoring or inspection problem?\nTalk to us about a pilot development and validation project. See Applications & Partnerships."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "No news items yet."
+  },
+  {
+    "objectID": "platforms/fish-robots.html",
+    "href": "platforms/fish-robots.html",
+    "title": "Bioinspired fish-like robots",
+    "section": "",
+    "text": "Hardware prototype validated in pool trials.\nFish-like propulsion can be quiet and maneuverable. We study a robot fish driven by a reaction wheel.\nThis platform supports our research program in Bioinspired marine robotics."
+  },
+  {
+    "objectID": "platforms/fish-robots.html#demonstrated-capabilities",
+    "href": "platforms/fish-robots.html#demonstrated-capabilities",
+    "title": "Bioinspired fish-like robots",
+    "section": "Demonstrated capabilities",
+    "text": "Demonstrated capabilities\nPool trials and system identification of heading dynamics via Parametric Weak-Form Sparse Regression (P-WSINDyc)."
+  },
+  {
+    "objectID": "platforms/fish-robots.html#specification",
+    "href": "platforms/fish-robots.html#specification",
+    "title": "Bioinspired fish-like robots",
     "section": "Specification",
-    "text": "Specification\n\nSpecification of Underwater glider\n\n\nPurpose\nEnergy-efficient, long-endurance observation of confined underwater regions\n\n\nCurrent status\nModeled and simulated. Hardware in development. No wet testing yet.\n\n\nActuation\nBuoyancy engine and moving-mass mechanism\n\n\nLength\nAbout 400 mm [TO CONFIRM]\n\n\nDemonstrated\nEnergy-aware event-triggered SE(3) control, in simulation only\n\n\nTest environment\nSimulation\n\n\nOpen research questions\nClosed-loop control on hardware; wet testing; energy characterization\n\n\nRelated publications\nSee the Publications page (theme: energy-aware autonomy)\n\n\nLead researchers\n[TO CONFIRM]\n\n\nLast updated\n[TO CONFIRM date]"
+    "text": "Specification\n\nSpecification of Bioinspired fish-like robots\n\n\nPurpose\nEfficient, quiet, maneuverable fish-like locomotion\n\n\nCurrent status\nNACA-0040 internal-rotor prototype tested in pool.\n\n\nDemonstrated\nPool trials and system identification of heading dynamics via P-WSINDyc.\n\n\nTest environment\nPool testbed with computer-vision tracking\n\n\nOpen research questions\nHeading control design; duty-cycle modulation schemes\n\n\nRelated publications\nSystem Identification of Heading Dynamics for an Internal-Rotor Fishlike Robot via Parametric Weak-Form Sparse Regression (P-WSINDyc)\n\n\nLead researchers\nJoshymar A. Echeverria Ortiz, Dr. Ali AlBeladi, Abdullah Alavi\n\n\nLast updated\nSeptember 2026"
   },
   {
-    "objectID": "platforms/index.html",
-    "href": "platforms/index.html",
-    "title": "Platforms",
+    "objectID": "platforms/hyperspectral.html",
+    "href": "platforms/hyperspectral.html",
+    "title": "Hyperspectral imaging rig",
     "section": "",
-    "text": "Our platforms fall into two groups. Marine vehicles operate in water. Perception and validation testbeds support them, and several run on the bench or in simulation. We label each one with what has been demonstrated, and nothing more."
+    "text": "Benchtop system. Not an underwater system.\nA pushbroom hyperspectral imaging system used on the laboratory bench to study spectral sensing of water and surfaces. It is a perception testbed. It is not fitted to any vehicle.\nThis platform supports our research program in Marine and environmental sensing.\n[TO CONFIRM: what it has imaged and what it is used for.]"
   },
   {
-    "objectID": "platforms/index.html#marine-vehicles",
-    "href": "platforms/index.html#marine-vehicles",
-    "title": "Platforms",
-    "section": "Marine vehicles",
-    "text": "Marine vehicles\nIntegrated prototype. Validated in controlled pool experiments.Marjan-R1 ROVInspection-class, tethered, six-degree-of-freedom vehicle designed and built in-house.Modeled and simulated. Hardware in development.Underwater gliderBuoyancy-driven vehicle for energy-efficient, long-duration observation.[TO CONFIRM status line]Bioinspired fish-like robotsReaction-wheel robot fish with learning-based locomotion control."
-  },
-  {
-    "objectID": "platforms/index.html#perception-and-validation-testbeds",
-    "href": "platforms/index.html#perception-and-validation-testbeds",
-    "title": "Platforms",
-    "section": "Perception and validation testbeds",
-    "text": "Perception and validation testbeds\nBenchtop system. Not an underwater system. [TO CONFIRM]Hyperspectral imaging rigBenchtop pushbroom hyperspectral imaging system.[TO CONFIRM scope]Simulation and digital-twin environmentsPhysics-based models of our vehicles, used to test control before water time.In development.Three-camera underwater pose-estimation systemCamera-based reference for estimating vehicle position and orientation in a test tank."
+    "objectID": "platforms/hyperspectral.html#specification",
+    "href": "platforms/hyperspectral.html#specification",
+    "title": "Hyperspectral imaging rig",
+    "section": "Specification",
+    "text": "Specification\n\nSpecification of Hyperspectral imaging rig\n\n\nPurpose\nStudy spectral sensing of water and surfaces on the bench\n\n\nCurrent status\nBenchtop system. Not an underwater system.\n\n\nDemonstrated\n[TO CONFIRM]\n\n\nTest environment\nLaboratory bench\n\n\nOpen research questions\n[TO CONFIRM]\n\n\nRelated publications\n[TO CONFIRM]\n\n\nLead researchers\nDr. Ali AlBeladi\n\n\nLast updated\n[TO CONFIRM date]"
   },
   {
     "objectID": "platforms/pose-estimation.html",
     "href": "platforms/pose-estimation.html",
     "title": "Three-camera underwater pose-estimation system",
     "section": "",
-    "text": "In development.\nA three-camera system to estimate the position and orientation of a vehicle in a test tank. It is intended as a reference for testing vehicle estimators. Nothing has been demonstrated yet.\n[TO CONFIRM: purpose and setup.]"
+    "text": "In development.\nA three-camera system to estimate the position and orientation of a vehicle in a test tank. It is intended as a reference for testing vehicle estimators. Nothing has been demonstrated yet.\nThis platform supports our research program in Underwater perception and state estimation.\n[TO CONFIRM: purpose and setup.]"
   },
   {
     "objectID": "platforms/pose-estimation.html#specification",
