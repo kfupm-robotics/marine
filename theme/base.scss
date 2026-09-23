@@ -55,6 +55,7 @@ table.spec th { width: 32%; color: var(--mrl-muted); font-weight: 500; }
 .pub p { margin: .15rem 0; }
 .pub-title { font-weight: 600; }
 .pub-authors, .pub-venue { color: var(--mrl-muted); }
+.pub-note { font-style: italic; color: var(--mrl-accent); }
 .tag { display: inline-block; font-size: .75rem; border: 1px solid var(--mrl-line); padding: 1px 8px; margin: .25rem .4rem 0 0; color: var(--mrl-muted); }
 
 /* Arabic pages: right-to-left with the Arabic face first */

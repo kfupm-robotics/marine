@@ -204,7 +204,7 @@ def venue(e):
         if e.get("number"):
             detail += f"({clean(e['number'])})"
     if e.get("pages"):
-        detail += f", {clean(e['pages'])}"
+        detail += f", {clean(e['pages']).replace('--', '–')}"
     return f"<em>{html.escape(v)}</em>{html.escape(detail)}" if v else ""
 
 
@@ -217,12 +217,13 @@ def pub_item(e):
         if e.get(key):
             links.append(f'<a href="{html.escape(e[key])}">{label}</a>')
     tags = "".join(f'<span class="tag">{html.escape(THEMES.get(t, t))}</span>' for t in themes)
+    note = f'<p class="pub-note">{html.escape(clean(e["note"]))}</p>' if e.get("note") else ""
     return (
         f'<li class="pub" data-year="{html.escape(e.get("year", ""))}" data-theme="{html.escape(" ".join(themes))}" '
         f'data-type="{TYPES.get(e["type"], "Other")}"><p class="pub-title">{html.escape(clean(e.get("title", "")))}</p>'
         f'<p class="pub-authors">{html.escape(authors(e.get("author", "")))}</p>'
         f'<p class="pub-venue">{venue(e)} ({html.escape(e.get("year", ""))})</p>'
-        f'<p class="pub-links">{" · ".join(links)}</p><p class="pub-tags">{tags}</p></li>'
+        f'{note}<p class="pub-links">{" · ".join(links)}</p><p class="pub-tags">{tags}</p></li>'
     )
 
 
