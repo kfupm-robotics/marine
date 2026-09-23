@@ -22,8 +22,6 @@ website:
         text: "العربية"
         href: ar/index.html
     left:
-      - text: Platforms
-        href: platforms/index.qmd
       - text: Research
         href: research.qmd
       - text: Applications

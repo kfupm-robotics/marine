@@ -5,50 +5,68 @@ description: "Research themes: modelling, estimation, control, perception and se
 
 Our themes follow the chain from physics to behavior: model the vehicle, estimate its state, control it, and sense the water around it.
 
-## Dynamic modelling and control {#modelling-control}
+## 1. Underwater vehicle modelling and control {#modelling-control}
 
-Nonlinear six-degree-of-freedom models of our vehicles, built on standard marine-craft formulations, and controllers designed from them. Marjan-R1 has a derived model and open-loop pool validation. Closed-loop control is the next step.
+How can we develop compact, full-stack 6-DoF ROVs with reliable non-linear dynamics for precise operations in confined coastal environments?
 
-*Platforms:* [Marjan-R1](platforms/marjan-r1.qmd)
+**Platform:** Marjan-R1 ROV · **Status:** Integrated prototype validated in controlled pool experiments · **Researchers:** Dr. Sarvat Ahmad, Dr. Ali AlBeladi, Syed Imtiaz Ali Shah, Masroor Khan
 
-## State estimation and system identification {#state-estimation}
+**Current work and results**
+We have built and modeled a nonlinear six-degree-of-freedom ROV. The vehicle acts as an experimental platform for system identification and closed-loop control. We recently completed open-loop pool validation, confirming static buoyancy trim and demonstrating strong coupling between axes, which motivates our ongoing closed-loop control development.
 
-Fusing inertial, pressure and sonar data, and fitting model parameters from experiments. Marjan-R1 is instrumented for system identification.
+**[Technical details](platforms/marjan-r1.qmd) · [Publications](publications.qmd)**
 
-<span class="tc">[TO CONFIRM: current status of this work.]</span>
+## 2. Energy-efficient underwater autonomy {#energy-aware-autonomy}
 
-## Energy-aware autonomy {#energy-aware-autonomy}
+How can autonomous underwater gliders coordinate shared actuators to achieve precise heading changes while descending on a limited energy budget?
 
-Deciding when to act, not only how, to extend battery life. Our event-triggered glider control reduces energy use in simulation.
+**Platform:** Underwater glider / SABR · **Status:** Modeled and simulated; hardware in development · **Researchers:** Dr. Ali AlBeladi, Julio Zevallos, Dr. Abdelhadi Aouaichia
 
-*Platforms:* [Underwater glider](platforms/glider.qmd)
+**Current work and results**
+We have developed a turn-coordinated active disturbance rejection control (TC-ADRC) architecture for underactuated gliders. The kinematic turn coordinator limits the commanded sink rate so that the relative flow driving the turn lasts as long as the heading task requires.
 
-## Simulation and digital twins {#simulation-digital-twins}
+**[Technical details](platforms/glider.qmd) · [Publications](publications.qmd)**
 
-Simulation as a way to test controllers safely before hardware trials.
+## 3. Bioinspired marine robotics {#bioinspired-robotics}
 
-*Platforms:* [Simulation and digital-twin environments](platforms/simulation.qmd)
+How can we identify and control the coupled heading dynamics of bioinspired fish-like robots driven entirely by internal reaction wheels?
 
-<span class="tc">[TO CONFIRM: scope.]</span>
+**Platform:** Bioinspired fish-like robots · **Status:** Hardware prototype validated in pool trials · **Researchers:** Joshymar A. Echeverria Ortiz, Dr. Ali AlBeladi, Abdullah Alavi
 
-## Underwater perception {#underwater-perception}
+**Current work and results**
+We performed system identification of heading dynamics for a NACA-0040 internal-rotor fishlike robot directly from pool trial data. Using Parametric Weak-Form Sparse Regression (P-WSINDyc), we isolated the specific dynamic term responsible for heading drift under asymmetric actuation, providing a data-driven basis for future control design.
 
-Camera-based pose estimation and visual sensing for underwater robots. In development.
+**[Technical details](platforms/fish-robots.qmd) · [Publications](publications.qmd)**
 
-*Platforms:* [Three-camera pose-estimation system](platforms/pose-estimation.qmd)
+## 4. Underwater perception and state estimation {#underwater-perception}
 
-## Hyperspectral sensing {#hyperspectral-sensing}
+How can we accurately estimate the state of a compact marine vehicle by fusing low-cost onboard sensors in real-time?
 
-Spectral imaging as a route to characterizing water and surfaces. Benchtop stage only.
+**Platform:** Marjan-R1 ROV & Pose-estimation system · **Status:** In development & Pool testing · **Researchers:** Dr. Ali AlBeladi, Syed Imtiaz Ali Shah
 
-*Platforms:* [Hyperspectral imaging rig](platforms/hyperspectral.qmd)
+**Current work and results**
+We are fusing inertial, pressure, and sonar data, and fitting model parameters from experiments. We have successfully applied an Unscented Kalman Filter (UKF) for real-time hydrodynamic parameter estimation on Marjan-R1 during pool tests, allowing for real-time state feedback.
 
-## Bioinspired locomotion {#bioinspired-locomotion}
+**[Technical details](platforms/pose-estimation.qmd)**
 
-Fish-like propulsion and learned control.
+## 5. Marine and environmental sensing {#environmental-sensing}
 
-*Platforms:* [Fish-like robots](platforms/fish-robots.qmd)
+How can spectral and geometric sensing identify materials, surfaces and environmental properties beyond conventional RGB imaging?
 
-<span class="tc">[TO CONFIRM: text depends on evidence supplied.]</span>
+**Platform:** Benchtop hyperspectral imaging rig · **Status:** Laboratory system validated on the bench; not yet integrated with an underwater vehicle · **Researchers:** Dr. Ali AlBeladi
 
-See all [publications](publications.qmd), filterable by theme.
+**Current work and results**
+Development of an open-source pushbroom HSI platform and depth-aware HSI–RGB-D fusion for material association and 3D mapping.
+
+**[Technical details](platforms/hyperspectral.qmd)**
+
+## 6. Simulation and digital twins {#simulation-digital-twins}
+
+How can we test advanced controllers safely and efficiently before deployment in physical hardware trials?
+
+**Platform:** Simulation and digital-twin environments · **Status:** Active · **Researchers:** Dr. Abdelhadi Aouaichia, Julio Zevallos, Dr. Ali AlBeladi
+
+**Current work and results**
+Simulation serves as the shared infrastructure supporting the other programs. We employ a replicable simulation-to-test framework using Gazebo/ROS 2 combined with CFD inputs to evaluate energy-aware control and disturbance rejection under simulated currents and noise.
+
+**[Technical details](platforms/simulation.qmd) · [Publications](publications.qmd)**

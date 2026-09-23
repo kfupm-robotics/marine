@@ -95,6 +95,22 @@ for group in ("vehicle", "testbed"):
     write(f"cards-{group}.md", cards(group, ""))
     write(f"cards-{group}-sub.md", cards(group, "../"))
 
+# ---- featured platform ----
+featured = next((p for p in platforms if p.get("featured_on_home")), None)
+if featured:
+    img_html = f'<img src="{esc(featured["image"])}" alt="{esc(featured["title"])}">' if featured.get("image") else ""
+    write("featured-platform.md", raw(
+        f'<div class="featured-platform">{img_html}'
+        f'<h3>Our flagship experimental platform</h3>'
+        f'<p>{esc(featured["card"])}</p>'
+        f'<div class="btn-row">'
+        f'<a class="primary" href="{esc(featured["page"])}">Technical details</a>'
+        f'<a class="secondary" href="research.html">Explore all research programs</a>'
+        f'</div></div>'
+    ))
+else:
+    write("featured-platform.md", "")
+
 # ---- people ----
 def person_card(p):
     name = p.get("name") or "[TO CONFIRM name]"

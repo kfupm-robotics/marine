@@ -5,6 +5,8 @@ description: "Physics-based models of our vehicles, used to test control before 
 
 We build physics-based models of our vehicles and use simulation to develop and test controllers before hardware trials. The glider control result on this site comes from such a simulation.
 
+*This platform supports our research program in [Simulation and digital twins](../research.qmd#simulation-digital-twins).*
+
 <span class="tc">[TO CONFIRM: scope and tools.]</span>
 
 ## Specification

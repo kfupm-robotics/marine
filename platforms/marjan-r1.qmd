@@ -7,6 +7,8 @@ description: "Inspection-class remotely operated vehicle designed and built in-h
 
 Marjan-R1 is an inspection-class remotely operated vehicle designed and built in-house: frame, pressure housings, electronics, firmware and control software. It is a research platform, so we can change any layer of it.
 
+*This platform supports our research program in [Underwater vehicle modelling and control](../research.qmd#modelling-control).*
+
 ::: {.cards}
 ::: {.media}
 ![CAD render — not a photo.](../media/platforms/marjan-r1-render-1.jpg){fig-alt="CAD render of Marjan-R1, an eight-thruster inspection ROV frame. This is a render, not a photo."}

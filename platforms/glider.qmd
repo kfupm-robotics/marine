@@ -7,6 +7,8 @@ description: "Buoyancy-driven vehicle for energy-efficient, long-duration observ
 
 Underwater gliders change their buoyancy to dive and climb, and shift an internal mass to control pitch, so they use little energy. We study how to make them last longer on a battery.
 
+*This platform supports our research program in [Energy-efficient underwater autonomy](../research.qmd#energy-aware-autonomy).*
+
 ## What we have shown, in simulation
 
 An energy-aware, event-triggered geometric controller formulated on the special Euclidean group SE(3). In simulation on a Seawing-class glider model, it used more than 45% less energy and 31% fewer control updates than a conventional time-triggered controller over the same mission, with a modest increase in tracking error.

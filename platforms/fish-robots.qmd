@@ -3,9 +3,11 @@ title: "Bioinspired fish-like robots"
 description: "Fish-like robots with learning-based locomotion control."
 ---
 
-<span class="tc">[TO CONFIRM status line]</span>
+<span class="status">Hardware prototype validated in pool trials.</span>
 
-Fish-like propulsion can be quiet and maneuverable. We study a robot fish driven by a reaction wheel, with locomotion control learned by reinforcement learning.
+Fish-like propulsion can be quiet and maneuverable. We study a robot fish driven by a reaction wheel.
+
+*This platform supports our research program in [Bioinspired marine robotics](../research.qmd#bioinspired-robotics).*
 
 ::: {.cards}
 ::: {.media}
@@ -16,7 +18,9 @@ Fish-like propulsion can be quiet and maneuverable. We study a robot fish driven
 :::
 :::
 
-<span class="tc">[TO CONFIRM: status line and demonstrated-capabilities text, pending your confirmation of what the photos show.]</span>
+## Demonstrated capabilities
+
+Pool trials and system identification of heading dynamics via Parametric Weak-Form Sparse Regression (P-WSINDyc).
 
 ## Specification
 

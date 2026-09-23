@@ -27,6 +27,11 @@ class Page(HTMLParser):
     def __init__(self):
         super().__init__()
         self.refs, self.imgs_missing_alt, self.lang, self.title, self._in_title = [], 0, None, "", False
+        self.h1s = []
+        self._in_h1 = False
+        self.nav_texts = []
+        self._in_nav = False
+        self._in_nav_container = False
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -34,6 +39,12 @@ class Page(HTMLParser):
             self.lang = a.get("lang")
         if tag == "title":
             self._in_title = True
+        if tag == "h1":
+            self._in_h1 = True
+        if tag == "nav":
+            self._in_nav_container = True
+        if tag == "a" and self._in_nav_container:
+            self._in_nav = True
         if tag == "img" and "alt" not in a:
             self.imgs_missing_alt += 1
         for key in ("href", "src"):
@@ -43,10 +54,20 @@ class Page(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "title":
             self._in_title = False
+        if tag == "h1":
+            self._in_h1 = False
+        if tag == "a" and self._in_nav:
+            self._in_nav = False
+        if tag == "nav":
+            self._in_nav_container = False
 
     def handle_data(self, data):
         if self._in_title:
             self.title += data
+        if self._in_h1:
+            self.h1s.append(data.strip())
+        if self._in_nav and self._in_nav_container:
+            self.nav_texts.append(data.strip().lower())
 
 
 if not SITE.exists():
@@ -81,6 +102,10 @@ for page in SITE.rglob("*.html"):
         errors.append(f"{rel}: prelaunch is on but noindex meta is missing")
     if not prelaunch and 'content="noindex' in text:
         errors.append(f"{rel}: prelaunch is off but noindex meta is still present")
+    if len([h for h in p.h1s if h]) > 1:
+        errors.append(f"{rel}: multiple <h1> tags found: {p.h1s}")
+    if any("platforms" in t for t in p.nav_texts):
+        errors.append(f"{rel}: 'Platforms' found in navbar text")
 
 # ---- file sizes: only files git actually tracks (or is about to), plus the built site.
 # A large file sitting untracked in the working tree (e.g. a raw video draft) is not a repo-size

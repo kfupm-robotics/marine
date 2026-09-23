@@ -20,9 +20,9 @@ Many underwater assets and water bodies are checked by periodic dive campaigns o
 - **We own the whole stack.** Mechanical design, electronics, firmware, models and control software are ours, so the vehicle can be changed to suit the problem. Marjan-R1 is not a modified commercial platform.
 - **Model-based development.** Each vehicle comes with a dynamic model and simulation, so behavior is tested before it is tried in water.
 - **Open about status.** We tell you what has been demonstrated and where, and what has not.
-- **A university lab with a path to product.** We do academic research and intend to commercialize our underwater robotics capability, eventually through a spin-off. <span class="tc">[TO CONFIRM wording]</span>
+- **A university lab with a path to product.** We do academic research and intend to commercialize our underwater robotics capability, supporting the region's strategic interests in environmental monitoring and coastal protection.
 
-<span class="tc">[TO CONFIRM: add one supportable statement on what existing contractors cannot readily provide.]</span>
+**What we offer that existing contractors may not:** Existing commercial solutions typically rely on tethered ROVs or propeller-driven AUVs that struggle with high energy consumption. This limits their ability to sustain long-term, continuous observation in confined areas. Our platforms are built for persistent, energy-efficient operation without human intervention.
 
 ## How we can work together
 

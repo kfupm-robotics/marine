@@ -7,6 +7,8 @@ description: "Camera-based reference for vehicle pose in a test tank. In develop
 
 A three-camera system to estimate the position and orientation of a vehicle in a test tank. It is intended as a reference for testing vehicle estimators. Nothing has been demonstrated yet.
 
+*This platform supports our research program in [Underwater perception and state estimation](../research.qmd#underwater-perception).*
+
 <span class="tc">[TO CONFIRM: purpose and setup.]</span>
 
 ## Specification

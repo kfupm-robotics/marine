@@ -1,5 +1,5 @@
 ---
-title: "KFUPM Marine Robotics Lab"
+title: false
 pagetitle: "KFUPM Marine Robotics Lab"
 description: "Marine robots and sensing systems for coastal and engineered waters."
 page-layout: full
@@ -15,7 +15,7 @@ title-block-banner: false
 <p class="lead">We design, model, build and test underwater vehicles for inspection, environmental monitoring and scientific observation. Our work runs from mathematical models and simulation, through integrated prototypes, to validation in controlled water.</p>
 
 <div class="btn-row">
-<a class="primary" href="platforms/index.html">Explore our platforms</a>
+<a class="primary" href="research.html">Explore our research</a>
 <a class="primary" href="applications.html">Partner with us</a>
 <a class="secondary" href="join.html">Join the lab</a>
 </div>
@@ -28,9 +28,9 @@ title-block-banner: false
 :::
 :::
 
-## What we have built
+## Research grounded in real systems
 
-{{< include _generated/cards-vehicle.md >}}
+{{< include _generated/featured-platform.md >}}
 
 ## Problems we address
 

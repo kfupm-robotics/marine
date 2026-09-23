@@ -7,6 +7,8 @@ description: "Benchtop pushbroom hyperspectral imaging system."
 
 A pushbroom hyperspectral imaging system used on the laboratory bench to study spectral sensing of water and surfaces. It is a perception testbed. It is not fitted to any vehicle.
 
+*This platform supports our research program in [Marine and environmental sensing](../research.qmd#environmental-sensing).*
+
 <span class="tc">[TO CONFIRM: what it has imaged and what it is used for.]</span>
 
 ## Specification

@@ -17,7 +17,7 @@ title-block-banner: false
 <p class="lead">نصمّم المركبات تحت الماء ونحاكيها ونبنيها ونختبرها، لأغراض الفحص والرصد البيئي والمراقبة العلمية. ينتقل عملنا من النماذج الرياضية والمحاكاة، إلى النماذج الأولية المتكاملة، ثم إلى التحقق في مياه خاضعة للتحكم.</p>
 
 <div class="btn-row">
-<a class="primary" href="../platforms/index.html">استكشف منصّاتنا</a>
+<a class="primary" href="../research.html">استكشف أبحاثنا</a>
 <a class="primary" href="applications.html">شاركنا</a>
 <a class="secondary" href="../join.html">انضم إلى المختبر</a>
 </div>
@@ -26,12 +26,16 @@ title-block-banner: false
 <div class="ph" role="img" aria-label="مكان مخصص لمقطع فيديو قصير لمركبة مرجان-R1 أثناء اختبار الحوض" style="min-height:340px">[مكان مخصص للوسائط: مقطع اختبار الحوض لمركبة مرجان-R1]</div>
 :::
 
-## ما بنيناه
+## أبحاث مبنية على أنظمة حقيقية
 
-<div class="cards">
-<div class="card"><span class="status">نموذج أولي متكامل، جرى التحقق منه في تجارب حوض مُتحكَّم بها</span><h3>مركبة «مرجان-R1» المتحكَّم بها عن بُعد</h3><p>مركبة للفحص مزوّدة بثمانية دافعات موجَّهة، صُمِّمت وصُنِعت داخل المختبر.</p></div>
-<div class="card"><span class="status">مُنمذجة ومحاكاة؛ العتاد قيد التطوير</span><h3>المركبة الانزلاقية تحت الماء</h3><p>مركبة تعتمد على تغيير الطفو لرصد طويل الأمد بكفاءة في استهلاك الطاقة.</p></div>
-<div class="card"><span class="status">[للتأكيد]</span><h3>روبوتات مستوحاة من الأسماك</h3><p>روبوت سمكة بعجلة تفاعلية وتحكم حركي قائم على التعلّم.</p></div>
+<div class="featured-platform">
+<img src="../media/platforms/marjan-r1-pool-side.jpg" alt="مرجان-R1">
+<h3>منصتنا التجريبية الرئيسية</h3>
+<p>تدعم مركبة مرجان-R1 أبحاثنا في النمذجة الديناميكية، تحديد الأنظمة، التحكم، الاستشعار، والفحص تحت الماء.</p>
+<div class="btn-row">
+<a class="primary" href="../platforms/marjan-r1.html">التفاصيل التقنية</a>
+<a class="secondary" href="../research.html">استكشف جميع البرامج البحثية</a>
+</div>
 </div>
 
 ## المشكلات التي نعالجها
