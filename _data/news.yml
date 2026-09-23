@@ -1,0 +1,11 @@
+# News. Add a new item at the TOP of this list. Newest first.
+# Fields: date (YYYY-MM-DD), title, summary, link (optional), tag (optional).
+# Example (remove the leading # on each line to use it):
+#
+# - date: 2026-10-01
+#   title: "Short, factual headline"
+#   summary: "One or two sentences."
+#   link: "https://example.org"
+#   tag: "Demonstration"
+
+[]

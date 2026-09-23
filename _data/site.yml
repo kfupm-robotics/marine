@@ -1,0 +1,10 @@
+# Site-wide switches. Edit this file to change them.
+
+# PRE-LAUNCH SWITCH. While true, every page carries <meta name="robots" content="noindex">
+# and robots.txt disallows everything. To launch, change this ONE line to `false`.
+# When false, the build also FAILS if any "[TO CONFIRM" placeholder is still on the site.
+prelaunch: true
+
+# Contact address shown on Contact, Applications, Join (mailto: link, no forms).
+# Leave empty until you decide which address to use.
+contact_email: ""

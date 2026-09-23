@@ -1,0 +1,66 @@
+---
+title: "KFUPM Marine Robotics Lab"
+pagetitle: "KFUPM Marine Robotics Lab"
+description: "Marine robots and sensing systems for coastal and engineered waters."
+page-layout: full
+title-block-banner: false
+---
+
+::: {.hero}
+::: {}
+<p class="eyebrow">IRC for Intelligent Manufacturing and Robotics · KFUPM</p>
+
+# Marine robots and sensing systems for coastal and engineered waters {.unnumbered}
+
+<p class="lead">We design, model, build and test underwater vehicles for inspection, environmental monitoring and scientific observation. Our work runs from mathematical models and simulation, through integrated prototypes, to validation in controlled water.</p>
+
+<div class="btn-row">
+<a class="primary" href="platforms/index.html">Explore our platforms</a>
+<a class="primary" href="applications.html">Partner with us</a>
+<a class="secondary" href="join.html">Join the lab</a>
+</div>
+:::
+
+<!-- Temporary still. Replace with the compressed hero loop once a clip is chosen and encoded (see docs/MEDIA.md):
+<video autoplay muted loop playsinline poster="media/platforms/marjan-r1-pool-side.jpg" aria-label="Marjan-R1 during pool testing"><source src="media/hero.webm" type="video/webm"><source src="media/hero.mp4" type="video/mp4"></video> -->
+::: {.media}
+![Marjan-R1 during pool testing. A short video loop will replace this still once one is compressed and approved.](media/platforms/marjan-r1-pool-side.jpg){fig-alt="Photo of Marjan-R1 at the edge of the test pool, tether attached."}
+:::
+:::
+
+## What we have built
+
+{{< include _generated/cards-vehicle.md >}}
+
+## Problems we address
+
+Underwater structures and water bodies are hard to observe, and periodic surveys leave gaps between observations. We work on:
+
+<div class="cards">
+<div class="card"><h3>Submerged infrastructure</h3><p>Inspecting piers, berths, walls and intakes without sending divers into the water.</p></div>
+<div class="card"><h3>Ports, marinas and engineered waterways</h3><p>Condition records over time instead of occasional snapshots.</p></div>
+<div class="card"><h3>Coastal and environmental monitoring</h3><p>Water-quality sensing is a target application. It is not yet integrated on any of our platforms.</p></div>
+</div>
+
+## Featured result
+
+<div class="hero" style="padding-top:0">
+<div class="ph" role="img" aria-label="Placeholder for a plot of open-loop step responses of Marjan-R1">[FIGURE PLACEHOLDER: open-loop step responses, Marjan-R1 (own plot)]</div>
+<div>
+
+### A dynamic model of a compact six-degree-of-freedom ROV {.unnumbered}
+
+We derived a nonlinear model of Marjan-R1 and compared it with open-loop step responses from pool tests. The tests confirmed static buoyancy trim and showed strong coupling between axes, which is why we are developing closed-loop control. See the [publications](publications.qmd).
+
+</div>
+</div>
+
+## Recent news
+
+{{< include _generated/news-latest.md >}}
+
+[All news](news.qmd)
+
+## Working on a water-monitoring or inspection problem?
+
+Talk to us about a pilot development and validation project. See [Applications & Partnerships](applications.qmd).

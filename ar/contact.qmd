@@ -1,0 +1,18 @@
+---
+title: "التواصل"
+pagetitle: "التواصل | مختبر الروبوتات البحرية"
+description: "كيفية التواصل مع مختبر الروبوتات البحرية."
+---
+
+<nav class="ar-nav" aria-label="التنقل الرئيسي"><a class="brand" href="index.html">مختبر الروبوتات البحرية · KFUPM</a><a href="applications.html">التطبيقات والشراكات</a><a href="contact.html" aria-current="page">التواصل</a><a href="../contact.html" lang="en" hreflang="en">English</a></nav>
+
+**مختبر الروبوتات البحرية**\
+مركز أبحاث الروبوتات المتكاملة والتصنيع الذكي\
+جامعة الملك فهد للبترول والمعادن (KFUPM)\
+الظهران 31261، المملكة العربية السعودية
+
+**البريد الإلكتروني**
+
+{{< include ../_generated/email-link.md >}}
+
+لاستفسارات الشراكة، يرجى وصف المشكلة والموقع والإطار الزمني.

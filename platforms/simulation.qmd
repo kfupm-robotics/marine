@@ -1,0 +1,12 @@
+---
+title: "Simulation and digital-twin environments"
+description: "Physics-based models of our vehicles, used to test control before water time."
+---
+
+We build physics-based models of our vehicles and use simulation to develop and test controllers before hardware trials. The glider control result on this site comes from such a simulation.
+
+<span class="tc">[TO CONFIRM: scope and tools.]</span>
+
+## Specification
+
+{{< include ../_generated/spec-simulation.md >}}

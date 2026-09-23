@@ -1,0 +1,6 @@
+---
+title: "News"
+description: "Exhibitions, demonstrations, grants and milestones."
+---
+
+{{< include _generated/news-list.md >}}

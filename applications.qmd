@@ -1,0 +1,41 @@
+---
+title: "Applications & Partnerships"
+description: "Problems we work on with partners, and how we can work together."
+---
+
+Many underwater assets and water bodies are checked by periodic dive campaigns or vessel surveys. Those leave gaps between observations. We are building the vehicles, models and sensing needed to close those gaps, and we want to test them against real operating problems.
+
+## Problems we work on
+
+<div class="cards">
+<div class="card"><h3>Submerged infrastructure inspection</h3><p>Piers, berths, canal walls, revetments and intake structures need assessment below the surface. Robotic inspection can document their condition and reduce the need for divers to enter the water.</p></div>
+<div class="card"><h3>Ports and marinas</h3><p>Regular condition records of berths and basins.</p></div>
+<div class="card"><h3>Engineered waterways and water bodies</h3><p>Enclosed basins, lagoons and canals where conditions change over time, and trends matter more than a single survey.</p></div>
+<div class="card"><h3>Coastal and environmental monitoring</h3><p>Repeated observation of coastal water. Water-quality sensing is a target application. It is not yet integrated on any of our platforms, and no autonomous monitoring has been demonstrated.</p></div>
+<div class="card"><h3>Sensor and autonomy validation</h3><p>A controlled setting to test sensors, estimators and control software on a real vehicle before field use.</p></div>
+</div>
+
+## Why work with us
+
+- **We own the whole stack.** Mechanical design, electronics, firmware, models and control software are ours, so the vehicle can be changed to suit the problem. Marjan-R1 is not a modified commercial platform.
+- **Model-based development.** Each vehicle comes with a dynamic model and simulation, so behavior is tested before it is tried in water.
+- **Open about status.** We tell you what has been demonstrated and where, and what has not.
+- **A university lab with a path to product.** We do academic research and intend to commercialize our underwater robotics capability, eventually through a spin-off. <span class="tc">[TO CONFIRM wording]</span>
+
+<span class="tc">[TO CONFIRM: add one supportable statement on what existing contractors cannot readily provide.]</span>
+
+## How we can work together
+
+1. Technical feasibility study
+2. Controlled-environment demonstration
+3. Sponsored research
+4. Co-developed prototype
+5. Pilot development and validation with an operational partner
+6. Technology licensing
+7. Sponsored student research or internships
+
+## Contact
+
+Email us with a short description of your problem and site. We will reply with next steps.
+
+{{< include _generated/email-link.md >}}

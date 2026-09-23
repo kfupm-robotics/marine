@@ -1,0 +1,109 @@
+# One entry per platform. Spec blocks are generated from this file.
+# Rules: never claim field deployment, endurance, autonomy, payload or commercial readiness
+# unless confirmed. Use "[TO CONFIRM]" for unverified values: it is allowed in drafts and
+# blocks the build once prelaunch is false.
+# group: vehicle | testbed
+
+- id: marjan-r1
+  group: vehicle
+  title: Marjan-R1 ROV
+  page: platforms/marjan-r1.html
+  status: "Integrated prototype. Validated in controlled pool experiments."
+  card: "Inspection-class, tethered, six-degree-of-freedom vehicle designed and built in-house."
+  spec:
+    Purpose: "Inspection and station keeping in controlled water; research platform for control and system identification."
+    Current status: "Integrated prototype validated in controlled pool experiments. No open-water operation yet."
+    Propulsion: "Eight vectored thrusters, six degrees of freedom"
+    Dimensions: "567 × 324 × 352 mm"
+    Mass: "14.5 kg, neutrally buoyant"
+    Design depth rating: "100 m [TO CONFIRM basis: pressure test or component ratings]"
+    Power and link: "Tethered power and communication; video and telemetry to a ground station"
+    Speed: "Up to 2 knots"
+    Demonstrated: "Watertight operation, hydrostatic trim, thruster control, open-loop step responses, video and telemetry over tether (pool)"
+    Test environment: "Laboratory pool"
+    Open research questions: "Closed-loop 6-DoF control; system identification; integration of a sensing payload; behavior in seawater"
+    Related publications: "See the Publications page (theme: dynamic modelling and control)"
+    Lead researchers: "Dr. Sarvat Ahmad, Dr. Ali AlBeladi"
+    Last updated: "[TO CONFIRM date]"
+
+- id: glider
+  group: vehicle
+  title: Underwater glider
+  page: platforms/glider.html
+  status: "Modeled and simulated. Hardware in development."
+  card: "Buoyancy-driven vehicle for energy-efficient, long-duration observation."
+  spec:
+    Purpose: "Energy-efficient, long-endurance observation of confined underwater regions"
+    Current status: "Modeled and simulated. Hardware in development. No wet testing yet."
+    Actuation: "Buoyancy engine and moving-mass mechanism"
+    Length: "About 400 mm [TO CONFIRM]"
+    Demonstrated: "Energy-aware event-triggered SE(3) control, in simulation only"
+    Test environment: "Simulation"
+    Open research questions: "Closed-loop control on hardware; wet testing; energy characterization"
+    Related publications: "See the Publications page (theme: energy-aware autonomy)"
+    Lead researchers: "[TO CONFIRM]"
+    Last updated: "[TO CONFIRM date]"
+
+- id: fish-robots
+  group: vehicle
+  title: Bioinspired fish-like robots
+  page: platforms/fish-robots.html
+  status: "[TO CONFIRM status line]"
+  card: "Reaction-wheel robot fish with learning-based locomotion control."
+  spec:
+    Purpose: "Efficient, quiet, maneuverable fish-like locomotion"
+    Current status: "[TO CONFIRM]"
+    Demonstrated: "[TO CONFIRM: MuJoCo simulation and pool experiments]"
+    Test environment: "[TO CONFIRM]"
+    Open research questions: "[TO CONFIRM]"
+    Related publications: "[TO CONFIRM]"
+    Lead researchers: "[TO CONFIRM]"
+    Last updated: "[TO CONFIRM date]"
+
+- id: hyperspectral
+  group: testbed
+  title: Hyperspectral imaging rig
+  page: platforms/hyperspectral.html
+  status: "Benchtop system. Not an underwater system. [TO CONFIRM]"
+  card: "Benchtop pushbroom hyperspectral imaging system."
+  spec:
+    Purpose: "Study spectral sensing of water and surfaces on the bench"
+    Current status: "Benchtop system. Not an underwater system."
+    Demonstrated: "[TO CONFIRM]"
+    Test environment: "Laboratory bench"
+    Open research questions: "[TO CONFIRM]"
+    Related publications: "[TO CONFIRM]"
+    Lead researchers: "Dr. Ali AlBeladi"
+    Last updated: "[TO CONFIRM date]"
+
+- id: simulation
+  group: testbed
+  title: Simulation and digital-twin environments
+  page: platforms/simulation.html
+  status: "[TO CONFIRM scope]"
+  card: "Physics-based models of our vehicles, used to test control before water time."
+  spec:
+    Purpose: "Develop and test vehicle models and controllers before hardware trials"
+    Current status: "[TO CONFIRM]"
+    Demonstrated: "Simulation of glider control (SE(3) model); [TO CONFIRM others]"
+    Test environment: "Simulation"
+    Open research questions: "[TO CONFIRM]"
+    Related publications: "See the Publications page"
+    Lead researchers: "[TO CONFIRM]"
+    Last updated: "[TO CONFIRM date]"
+
+- id: pose-estimation
+  group: testbed
+  title: Three-camera underwater pose-estimation system
+  page: platforms/pose-estimation.html
+  status: "In development."
+  card: "Camera-based reference for estimating vehicle position and orientation in a test tank."
+  spec:
+    Purpose: "[TO CONFIRM]"
+    Current status: "In development"
+    Demonstrated: "Nothing yet claimed"
+    Test environment: "[TO CONFIRM]"
+    Open research questions: "[TO CONFIRM]"
+    Related publications: "None yet"
+    Lead researchers: "[TO CONFIRM]"
+    Last updated: "[TO CONFIRM date]"

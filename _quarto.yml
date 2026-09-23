@@ -1,0 +1,62 @@
+project:
+  type: website
+  pre-render: python scripts/build_data.py
+  render:
+    - "*.qmd"
+    - "!private-notes/"
+    - "!privite-references/"
+  resources:
+    - robots.txt
+
+website:
+  title: "KFUPM Marine Robotics Lab"
+  # The ONLY place the site URL is set. For the KFUPM subdomain move, change this line
+  # (and the CNAME file); see docs/MIGRATION.md. All other links are relative.
+  site-url: https://kfupm-robotics.github.io/marine
+  description: "Marine robots and sensing systems for coastal and engineered waters. KFUPM."
+  navbar:
+    title: "KFUPM Marine Robotics Lab"
+    search: false
+    tools:
+      - icon: translate
+        text: "العربية"
+        href: ar/index.html
+    left:
+      - text: Platforms
+        href: platforms/index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Applications
+        href: applications.qmd
+      - text: People
+        href: people.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: News
+        href: news.qmd
+      - text: Join
+        href: join.qmd
+  page-footer:
+    left: |
+      KFUPM Marine Robotics Lab · IRC for Intelligent Manufacturing and Robotics · King Fahd University of Petroleum & Minerals, Dhahran
+    center:
+      - text: Contact
+        href: contact.qmd
+      - text: العربية
+        href: ar/index.qmd
+    right: |
+      Funding: IRC for Intelligent Manufacturing and Robotics, KFUPM, grant no. INMR2408
+
+format:
+  html:
+    theme:
+      light: [default, theme/base.scss, theme/light.scss]
+      dark: [default, theme/base.scss, theme/dark.scss]
+    include-in-header:
+      - theme/fonts.html
+      - _generated/head.html
+    toc: false
+    lang: en
+    link-external-icon: false
+    smooth-scroll: true
+    email-obfuscation: none

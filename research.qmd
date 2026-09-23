@@ -1,0 +1,54 @@
+---
+title: "Research"
+description: "Research themes: modelling, estimation, control, perception and sensing for marine robots."
+---
+
+Our themes follow the chain from physics to behavior: model the vehicle, estimate its state, control it, and sense the water around it.
+
+## Dynamic modelling and control {#modelling-control}
+
+Nonlinear six-degree-of-freedom models of our vehicles, built on standard marine-craft formulations, and controllers designed from them. Marjan-R1 has a derived model and open-loop pool validation. Closed-loop control is the next step.
+
+*Platforms:* [Marjan-R1](platforms/marjan-r1.qmd)
+
+## State estimation and system identification {#state-estimation}
+
+Fusing inertial, pressure and sonar data, and fitting model parameters from experiments. Marjan-R1 is instrumented for system identification.
+
+<span class="tc">[TO CONFIRM: current status of this work.]</span>
+
+## Energy-aware autonomy {#energy-aware-autonomy}
+
+Deciding when to act, not only how, to extend battery life. Our event-triggered glider control reduces energy use in simulation.
+
+*Platforms:* [Underwater glider](platforms/glider.qmd)
+
+## Simulation and digital twins {#simulation-digital-twins}
+
+Simulation as a way to test controllers safely before hardware trials.
+
+*Platforms:* [Simulation and digital-twin environments](platforms/simulation.qmd)
+
+<span class="tc">[TO CONFIRM: scope.]</span>
+
+## Underwater perception {#underwater-perception}
+
+Camera-based pose estimation and visual sensing for underwater robots. In development.
+
+*Platforms:* [Three-camera pose-estimation system](platforms/pose-estimation.qmd)
+
+## Hyperspectral sensing {#hyperspectral-sensing}
+
+Spectral imaging as a route to characterizing water and surfaces. Benchtop stage only.
+
+*Platforms:* [Hyperspectral imaging rig](platforms/hyperspectral.qmd)
+
+## Bioinspired locomotion {#bioinspired-locomotion}
+
+Fish-like propulsion and learned control.
+
+*Platforms:* [Fish-like robots](platforms/fish-robots.qmd)
+
+<span class="tc">[TO CONFIRM: text depends on evidence supplied.]</span>
+
+See all [publications](publications.qmd), filterable by theme.

@@ -1,0 +1,14 @@
+---
+title: "Three-camera underwater pose-estimation system"
+description: "Camera-based reference for vehicle pose in a test tank. In development."
+---
+
+<span class="status">In development.</span>
+
+A three-camera system to estimate the position and orientation of a vehicle in a test tank. It is intended as a reference for testing vehicle estimators. Nothing has been demonstrated yet.
+
+<span class="tc">[TO CONFIRM: purpose and setup.]</span>
+
+## Specification
+
+{{< include ../_generated/spec-pose-estimation.md >}}

@@ -1,0 +1,130 @@
+# People. Edit this one file in the browser.
+# Each entry: name, role, group, photo, bio, focus, links, hidden.
+# group: leadership | postdoc | phd | ms | engineers | alumni
+# hidden: true keeps an entry off the live site. Set it to false once the profile is complete.
+# For alumni add: years, now (current position).
+
+- name: Dr. Sarvat Ahmad
+  role: Principal Investigator
+  group: leadership
+  dept: Control & Instrumentation Engineering
+  photo: media/people/sarvat-ahmad.png
+  bio: ""
+  focus: ""
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Dr. Ali AlBeladi
+  role: Co-Principal Investigator
+  group: leadership
+  dept: Electrical Engineering
+  photo: media/people/ali-albeladi.jpg
+  bio: ""
+  focus: "Underwater vehicles, bioinspired fish-like robotics, hyperspectral imaging systems"
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Masroor Khan
+  role: Research Engineer, Electro-Mechanical
+  group: engineers
+  dept: ""
+  photo: ""
+  bio: ""
+  focus: ""
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Imtiaz Ali
+  role: Research Engineer, Embedded Systems
+  group: engineers
+  dept: ""
+  photo: ""
+  bio: ""
+  focus: ""
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Dr. Abdelhadi Aouaichia
+  role: Postdoctoral Researcher
+  group: postdoc
+  dept: ""
+  photo: media/people/abdelhadi-aouaichia.webp
+  bio: ""
+  focus: ""
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Julio Zevallos
+  role: PhD Student
+  group: phd
+  dept: ""
+  photo: media/people/julio-zevallos.jpg
+  bio: ""
+  focus: "Modelling, control, underwater gliders"
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Tarique Bin Hamid
+  role: PhD Student
+  group: phd
+  dept: ""
+  photo: ""
+  bio: ""
+  focus: "Modelling, system identification, ROV"
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Adeel Bashir
+  role: PhD Student
+  group: phd
+  dept: ""
+  photo: media/people/adeel-bashir.jpg
+  bio: ""
+  focus: "State estimation, sensor fusion, underwater glider"
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Md. Masudur Rahman
+  role: PhD Student
+  group: phd
+  dept: ""
+  photo: ""
+  bio: ""
+  focus: "Control, ROV"
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+# ---- One PhD slot still open (brief calls for 5) ----
+- name: ""
+  role: PhD Student
+  group: phd
+  photo: ""
+  bio: ""
+  focus: ""
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: true
+
+- name: Abdullah Alavi
+  role: MS Student
+  group: ms
+  dept: ""
+  photo: media/people/abdullah-alavi.jpg
+  bio: ""
+  focus: "Reinforcement learning, bioinspired robotics"
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+- name: Joshymar Echeverria
+  role: MS Student
+  group: ms
+  dept: ""
+  photo: media/people/joshymar-echeverria.jpg
+  bio: ""
+  focus: "Model-based control, bioinspired robotics"
+  links: {scholar: "", orcid: "", linkedin: "", github: ""}
+  hidden: false
+
+# ---- Alumni: add entries with group: alumni ----
+
+# ---- Awaiting confirmation, not yet added: a photo "Youssief Morsy" was supplied
+# under images/Team/ but not named in Ali's list. Ask before adding as a person.

@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>KFUPM Marine Robotics Lab (mockup C - Tidewater)</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Source+Sans+3:wght@400;600&family=Noto+Kufi+Arabic:wght@400;600&display=swap" rel="stylesheet"><style>:root{--bg:#F7F3E8;--surface:#FFFDF7;--ink:#1C2B2E;--muted:#52605F;--primary:#1F4E58;--onprimary:#FFFFFF;--accent:#9A4A22;--line:#DDD5BE;--warn:#7A5A00;--head:'Newsreader',Georgia,serif;--body:'Source Sans 3','Noto Kufi Arabic',system-ui,sans-serif;--mono:'Source Sans 3',sans-serif}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121D1F;--surface:#1A2729;--ink:#EDEBE0;--muted:#B4BFBC;--primary:#8FCBD3;--onprimary:#121D1F;--accent:#E39A6E;--line:#2E3E40;--warn:#E8C15A}}
+:root[data-theme=dark]{--bg:#121D1F;--surface:#1A2729;--ink:#EDEBE0;--muted:#B4BFBC;--primary:#8FCBD3;--onprimary:#121D1F;--accent:#E39A6E;--line:#2E3E40;--warn:#E8C15A}
+
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+a{color:var(--primary)}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:var(--surface);padding:8px;z-index:9}
+.w{max-width:1120px;margin:0 auto;padding:0 16px}
+header.top{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:5}
+header.top .w{display:flex;align-items:center;gap:16px;min-height:64px;flex-wrap:wrap}
+.brand{font:600 1.05rem var(--head);color:var(--ink);text-decoration:none;margin-inline-end:auto}
+nav a{color:var(--ink);text-decoration:none;margin-inline-end:14px;font-size:.95rem}nav a[aria-current]{border-bottom:2px solid var(--accent)}
+.t{background:none;border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:6px 10px;font:inherit;font-size:.85rem;cursor:pointer;text-decoration:none}
+.eyebrow{font:600 .75rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+h1,h2,h3{font-family:var(--head);line-height:1.15;margin:0 0 .5em;font-weight:600}
+h1{font-size:clamp(2rem,5vw,3.25rem)}h2{font-size:clamp(1.5rem,3vw,2.1rem)}h3{font-size:1.2rem}
+.lead{font-size:1.2rem;color:var(--muted);max-width:60ch}
+.btn{display:inline-block;padding:12px 20px;border-radius:6px;text-decoration:none;font-weight:600;margin:0 10px 10px 0}
+.btn.p{background:var(--primary);color:var(--onprimary)}.btn.s{border:1.5px solid var(--primary);color:var(--primary)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+.ph{background:repeating-linear-gradient(45deg,var(--surface),var(--surface) 12px,var(--bg) 12px,var(--bg) 24px);border:1.5px dashed var(--muted);border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-size:.85rem;padding:16px;min-height:260px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:22px}
+.status{display:inline-block;font:600 .75rem var(--mono);color:var(--warn);border:1px solid var(--warn);border-radius:99px;padding:2px 10px;margin-bottom:10px}
+table{border-collapse:collapse;width:100%;background:var(--surface);border:1px solid var(--line)}
+th,td{text-align:start;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}th{width:34%;color:var(--muted);font-weight:500}
+.tc{color:var(--warn);font-family:var(--mono);font-size:.9rem}
+footer{border-top:1px solid var(--line);padding:36px 0;color:var(--muted);font-size:.9rem}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}}
+.hero{text-align:center}.hero .lead{margin:0 auto 24px}.hero h1{font-weight:500;font-size:clamp(2.2rem,6vw,4rem);max-width:18ch;margin-inline:auto}h2{font-weight:500}.card{border:0;border-top:3px solid var(--accent);border-radius:0;background:transparent;padding:18px 0}.btn{border-radius:99px}</style></head><body><a class="skip" href="#main">Skip to content</a><header class="top"><div class="w"><a class="brand" href="#">KFUPM Marine Robotics Lab</a><nav aria-label="Main"><a href="#">Home</a><a href="#" aria-current=page>Platforms</a><a href="#">Research</a><a href="#">Applications</a><a href="#">People</a><a href="#">Publications</a><a href="#">News</a><a href="#">Join</a></nav><a href="#" hreflang="ar" lang="ar" class="t">العربية</a><button class="t" onclick="var r=document.documentElement;r.dataset.theme=(r.dataset.theme==='dark'||(!r.dataset.theme&&matchMedia('(prefers-color-scheme:dark)').matches))?'light':'dark'">Light / dark</button></div></header><main id="main"><section style="border:0"><div class="w"><p class="eyebrow">Platforms · Marine vehicles</p><h1>Marjan-R1 ROV</h1><span class="status">Integrated prototype — validated in controlled pool experiments</span>
+<p class="lead">An inspection-class remotely operated vehicle with eight vectored thrusters, designed and built in-house.</p></div></section>
+<section><div class="w grid2"><div class="ph" role="img" aria-label="Placeholder for CAD render of Marjan-R1">[CAD RENDER: clearly labelled as render]</div><div class="ph" role="img" aria-label="Placeholder for pool test photo">[PHOTO: vehicle in pool]</div></div></section>
+<section><div class="w"><h2>Specification</h2><table><tbody>
+<tr><th scope="row">Purpose</th><td>Inspection and station keeping in controlled water; research platform for control and system identification.</td></tr>
+<tr><th scope="row">Current status</th><td>Integrated prototype validated in controlled pool experiments. No open-water operation yet.</td></tr>
+<tr><th scope="row">Propulsion</th><td>Eight vectored thrusters, six degrees of freedom</td></tr>
+<tr><th scope="row">Dimensions</th><td>567 × 324 × 352 mm</td></tr>
+<tr><th scope="row">Mass</th><td>14.5 kg, neutrally buoyant</td></tr>
+<tr><th scope="row">Design depth rating</th><td class="tc">100 m [TO CONFIRM basis]</td></tr>
+<tr><th scope="row">Power and link</th><td>Tethered power and communication; video and telemetry to a ground station</td></tr>
+<tr><th scope="row">Speed</th><td>Up to 2 knots</td></tr>
+<tr><th scope="row">Demonstrated</th><td>Hydrostatic trim, thruster control, open-loop step responses in a pool</td></tr>
+<tr><th scope="row">Test environment</th><td>Laboratory pool</td></tr>
+<tr><th scope="row">Open research questions</th><td>Closed-loop control, system identification, sensing payload integration</td></tr>
+<tr><th scope="row">Publications</th><td class="tc">[linked from publications.bib]</td></tr>
+<tr><th scope="row">Lead researchers</th><td>Dr. Sarvat Ahmad, Dr. Ali AlBeladi</td></tr>
+<tr><th scope="row">Last updated</th><td class="tc">[YYYY-MM-DD]</td></tr></tbody></table></div></section></main><footer><div class="w"><p><strong>KFUPM Marine Robotics Lab</strong> · King Fahd University of Petroleum &amp; Minerals, Dhahran</p><p>Funding: IRC for Intelligent Manufacturing and Robotics, grant INMR2408 · Facilities · Open resources · Contact: <a href="#">[KFUPM email]</a></p><p>Design mockup, not final. Placeholders are in brackets.</p></div></footer></body></html>

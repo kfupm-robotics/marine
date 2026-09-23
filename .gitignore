@@ -1,0 +1,20 @@
+# CONFIDENTIAL: never commit (the repo and its full history are public)
+privite-references/
+privite_references/
+private-notes/
+*.pptx
+
+# Raw/source media (uncompressed, includes files well over the 50 MB limit).
+# Curate what's needed into media/ (small, compressed, clean filenames) and reference that instead.
+/images/
+
+# Build output and generated files
+_site/
+.quarto/
+_generated/
+robots.txt
+/.jupyter_cache/
+__pycache__/
+
+/.quarto/
+**/*.quarto_ipynb

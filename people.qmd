@@ -1,0 +1,6 @@
+---
+title: "People"
+description: "Lab leadership, researchers and engineers."
+---
+
+{{< include _generated/people.md >}}

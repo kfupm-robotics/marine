@@ -1,0 +1,23 @@
+---
+title: "Bioinspired fish-like robots"
+description: "Fish-like robots with learning-based locomotion control."
+---
+
+<span class="tc">[TO CONFIRM status line]</span>
+
+Fish-like propulsion can be quiet and maneuverable. We study a robot fish driven by a reaction wheel, with locomotion control learned by reinforcement learning.
+
+::: {.cards}
+::: {.media}
+![In the pool.](../media/platforms/fish-robot-pool.png){fig-alt="Photo of the reaction-wheel robot fish in the test pool."}
+:::
+::: {.media}
+![Internal mechanism.](../media/platforms/fish-robot-internal.png){fig-alt="Photo of the robot fish's internal reaction-wheel mechanism, opened up."}
+:::
+:::
+
+<span class="tc">[TO CONFIRM: status line and demonstrated-capabilities text, pending your confirmation of what the photos show.]</span>
+
+## Specification
+
+{{< include ../_generated/spec-fish-robots.md >}}

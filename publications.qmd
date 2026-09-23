@@ -1,0 +1,6 @@
+---
+title: "Publications"
+description: "Papers from the lab, filterable by year, theme and type."
+---
+
+{{< include _generated/publications.md >}}

@@ -1,0 +1,26 @@
+---
+title: "Join the lab"
+description: "PhD, MS, postdoctoral and undergraduate opportunities."
+---
+
+We welcome students and researchers interested in marine robotics, control, estimation, perception and embedded systems.
+
+## PhD
+
+Apply through the KFUPM graduate admissions process in the department of the supervisor (Control & Instrumentation Engineering or Electrical Engineering). Email us first with your CV and research interests. <span class="tc">[TO CONFIRM process]</span>
+
+## MS
+
+The same route applies. <span class="tc">[TO CONFIRM thesis and non-thesis details]</span>
+
+## Postdoctoral researchers
+
+Email a CV and a short research statement. Openings are posted here when available.
+
+## Undergraduate students
+
+KFUPM students can ask about projects, internships and senior design. <span class="tc">[TO CONFIRM]</span>
+
+## Contact
+
+{{< include _generated/email-link.md >}}
