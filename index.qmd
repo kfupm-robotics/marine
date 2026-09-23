@@ -1,5 +1,4 @@
 ---
-title: false
 pagetitle: "KFUPM Marine Robotics Lab"
 description: "Marine robots and sensing systems for coastal and engineered waters."
 page-layout: full
