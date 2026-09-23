@@ -94,15 +94,15 @@
   links: {scholar: "", orcid: "", linkedin: "", github: ""}
   hidden: false
 
-# ---- One PhD slot still open (brief calls for 5) ----
-- name: ""
+- name: Youssief Morsy
   role: PhD Student
   group: phd
-  photo: ""
+  dept: ""
+  photo: media/people/youssief-morsy.png
   bio: ""
-  focus: ""
+  focus: "Vision-based control, ROV"
   links: {scholar: "", orcid: "", linkedin: "", github: ""}
-  hidden: true
+  hidden: false
 
 - name: Abdullah Alavi
   role: MS Student
@@ -125,6 +125,3 @@
   hidden: false
 
 # ---- Alumni: add entries with group: alumni ----
-
-# ---- Awaiting confirmation, not yet added: a photo "Youssief Morsy" was supplied
-# under images/Team/ but not named in Ali's list. Ask before adding as a person.
