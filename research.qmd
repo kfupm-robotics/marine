@@ -9,7 +9,7 @@ Our themes follow the chain from physics to behavior: model the vehicle, estimat
 
 How can we develop compact, full-stack 6-DoF ROVs with reliable non-linear dynamics for precise operations in confined coastal environments?
 
-**Platform:** Marjan-R1 ROV · **Status:** Integrated prototype validated in controlled pool experiments · **Researchers:** Dr. Sarvat Ahmad, Dr. Ali AlBeladi, Syed Imtiaz Ali Shah, Masroor Khan
+**Platform:** Marjan-R1 ROV · **Status:** Integrated prototype validated in controlled pool experiments · **Researchers:** Syed Imtiaz Ali Shah, Masroor Khan
 
 **Current work and results**
 We have built and modeled a nonlinear six-degree-of-freedom ROV. The vehicle acts as an experimental platform for system identification and closed-loop control. We recently completed open-loop pool validation, confirming static buoyancy trim and demonstrating strong coupling between axes, which motivates our ongoing closed-loop control development.
@@ -20,7 +20,7 @@ We have built and modeled a nonlinear six-degree-of-freedom ROV. The vehicle act
 
 How can autonomous underwater gliders coordinate shared actuators to achieve precise heading changes while descending on a limited energy budget?
 
-**Platform:** Underwater glider / SABR · **Status:** Modeled and simulated; hardware in development · **Researchers:** Dr. Ali AlBeladi, Julio Zevallos, Dr. Abdelhadi Aouaichia
+**Platform:** Underwater glider / SABR · **Status:** Modeled and simulated; hardware in development · **Researchers:** Julio Zevallos, Dr. Abdelhadi Aouaichia
 
 **Current work and results**
 We have developed a turn-coordinated active disturbance rejection control (TC-ADRC) architecture for underactuated gliders. The kinematic turn coordinator limits the commanded sink rate so that the relative flow driving the turn lasts as long as the heading task requires.
@@ -31,7 +31,7 @@ We have developed a turn-coordinated active disturbance rejection control (TC-AD
 
 How can we identify and control the coupled heading dynamics of bioinspired fish-like robots driven entirely by internal reaction wheels?
 
-**Platform:** Bioinspired fish-like robots · **Status:** Hardware prototype validated in pool trials · **Researchers:** Joshymar A. Echeverria Ortiz, Dr. Ali AlBeladi, Abdullah Alavi
+**Platform:** Bioinspired fish-like robots · **Status:** Hardware prototype validated in pool trials · **Researchers:** Joshymar A. Echeverria Ortiz, Abdullah Alavi
 
 **Current work and results**
 We performed system identification of heading dynamics for a NACA-0040 internal-rotor fishlike robot directly from pool trial data. Using Parametric Weak-Form Sparse Regression (P-WSINDyc), we isolated the specific dynamic term responsible for heading drift under asymmetric actuation, providing a data-driven basis for future control design.
@@ -42,7 +42,7 @@ We performed system identification of heading dynamics for a NACA-0040 internal-
 
 How can we accurately estimate the state of a compact marine vehicle by fusing low-cost onboard sensors in real-time?
 
-**Platform:** Marjan-R1 ROV & Pose-estimation system · **Status:** In development & Pool testing · **Researchers:** Dr. Ali AlBeladi, Syed Imtiaz Ali Shah
+**Platform:** Marjan-R1 ROV & Pose-estimation system · **Status:** In development & Pool testing · **Researchers:** Syed Imtiaz Ali Shah
 
 **Current work and results**
 We are fusing inertial, pressure, and sonar data, and fitting model parameters from experiments. We have successfully applied an Unscented Kalman Filter (UKF) for real-time hydrodynamic parameter estimation on Marjan-R1 during pool tests, allowing for real-time state feedback.
@@ -53,7 +53,7 @@ We are fusing inertial, pressure, and sonar data, and fitting model parameters f
 
 How can spectral and geometric sensing identify materials, surfaces and environmental properties beyond conventional RGB imaging?
 
-**Platform:** Benchtop hyperspectral imaging rig · **Status:** Laboratory system validated on the bench; not yet integrated with an underwater vehicle · **Researchers:** Dr. Ali AlBeladi
+**Platform:** Benchtop hyperspectral imaging rig · **Status:** Laboratory system validated on the bench; not yet integrated with an underwater vehicle · **Researchers:** 
 
 **Current work and results**
 Development of an open-source pushbroom HSI platform and depth-aware HSI–RGB-D fusion for material association and 3D mapping.
@@ -64,7 +64,7 @@ Development of an open-source pushbroom HSI platform and depth-aware HSI–RGB-D
 
 How can we test advanced controllers safely and efficiently before deployment in physical hardware trials?
 
-**Platform:** Simulation and digital-twin environments · **Status:** Active · **Researchers:** Dr. Abdelhadi Aouaichia, Julio Zevallos, Dr. Ali AlBeladi
+**Platform:** Simulation and digital-twin environments · **Status:** Active · **Researchers:** Dr. Abdelhadi Aouaichia, Julio Zevallos
 
 **Current work and results**
 Simulation serves as the shared infrastructure supporting the other programs. We employ a replicable simulation-to-test framework using Gazebo/ROS 2 combined with CFD inputs to evaluate energy-aware control and disturbance rejection under simulated currents and noise.
