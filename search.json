@@ -11,42 +11,42 @@
     "href": "research.html#modelling-control",
     "title": "Research",
     "section": "1. Underwater vehicle modelling and control",
-    "text": "1. Underwater vehicle modelling and control\nHow can we develop compact, full-stack 6-DoF ROVs with reliable non-linear dynamics for precise operations in confined coastal environments?\nPlatform: Marjan-R1 ROV · Status: Integrated prototype validated in controlled pool experiments · Researchers: Dr. Sarvat Ahmad, Dr. Ali AlBeladi, Syed Imtiaz Ali Shah, Masroor Khan\nCurrent work and results We have built and modeled a nonlinear six-degree-of-freedom ROV. The vehicle acts as an experimental platform for system identification and closed-loop control. We recently completed open-loop pool validation, confirming static buoyancy trim and demonstrating strong coupling between axes, which motivates our ongoing closed-loop control development.\nTechnical details · Publications"
+    "text": "1. Underwater vehicle modelling and control\nHow can we develop compact, full-stack 6-DoF ROVs with reliable non-linear dynamics for precise operations in confined coastal environments?\nPlatform: Marjan-R1 ROV · Status: Integrated prototype validated in controlled pool experiments · Researchers: Syed Imtiaz Ali Shah, Masroor Khan\nCurrent work and results We have built and modeled a nonlinear six-degree-of-freedom ROV. The vehicle acts as an experimental platform for system identification and closed-loop control. We recently completed open-loop pool validation, confirming static buoyancy trim and demonstrating strong coupling between axes, which motivates our ongoing closed-loop control development.\nTechnical details · Publications"
   },
   {
     "objectID": "research.html#energy-aware-autonomy",
     "href": "research.html#energy-aware-autonomy",
     "title": "Research",
     "section": "2. Energy-efficient underwater autonomy",
-    "text": "2. Energy-efficient underwater autonomy\nHow can autonomous underwater gliders coordinate shared actuators to achieve precise heading changes while descending on a limited energy budget?\nPlatform: Underwater glider / SABR · Status: Modeled and simulated; hardware in development · Researchers: Dr. Ali AlBeladi, Julio Zevallos, Dr. Abdelhadi Aouaichia\nCurrent work and results We have developed a turn-coordinated active disturbance rejection control (TC-ADRC) architecture for underactuated gliders. The kinematic turn coordinator limits the commanded sink rate so that the relative flow driving the turn lasts as long as the heading task requires.\nTechnical details · Publications"
+    "text": "2. Energy-efficient underwater autonomy\nHow can autonomous underwater gliders coordinate shared actuators to achieve precise heading changes while descending on a limited energy budget?\nPlatform: Underwater glider / SABR · Status: Modeled and simulated; hardware in development · Researchers: Julio Zevallos, Dr. Abdelhadi Aouaichia\nCurrent work and results We have developed a turn-coordinated active disturbance rejection control (TC-ADRC) architecture for underactuated gliders. The kinematic turn coordinator limits the commanded sink rate so that the relative flow driving the turn lasts as long as the heading task requires.\nTechnical details · Publications"
   },
   {
     "objectID": "research.html#bioinspired-robotics",
     "href": "research.html#bioinspired-robotics",
     "title": "Research",
     "section": "3. Bioinspired marine robotics",
-    "text": "3. Bioinspired marine robotics\nHow can we identify and control the coupled heading dynamics of bioinspired fish-like robots driven entirely by internal reaction wheels?\nPlatform: Bioinspired fish-like robots · Status: Hardware prototype validated in pool trials · Researchers: Joshymar A. Echeverria Ortiz, Dr. Ali AlBeladi, Abdullah Alavi\nCurrent work and results We performed system identification of heading dynamics for a NACA-0040 internal-rotor fishlike robot directly from pool trial data. Using Parametric Weak-Form Sparse Regression (P-WSINDyc), we isolated the specific dynamic term responsible for heading drift under asymmetric actuation, providing a data-driven basis for future control design.\nTechnical details · Publications"
+    "text": "3. Bioinspired marine robotics\nHow can we identify and control the coupled heading dynamics of bioinspired fish-like robots driven entirely by internal reaction wheels?\nPlatform: Bioinspired fish-like robots · Status: Hardware prototype validated in pool trials · Researchers: Joshymar A. Echeverria Ortiz, Abdullah Alavi\nCurrent work and results We performed system identification of heading dynamics for a NACA-0040 internal-rotor fishlike robot directly from pool trial data. Using Parametric Weak-Form Sparse Regression (P-WSINDyc), we isolated the specific dynamic term responsible for heading drift under asymmetric actuation, providing a data-driven basis for future control design.\nTechnical details · Publications"
   },
   {
     "objectID": "research.html#underwater-perception",
     "href": "research.html#underwater-perception",
     "title": "Research",
     "section": "4. Underwater perception and state estimation",
-    "text": "4. Underwater perception and state estimation\nHow can we accurately estimate the state of a compact marine vehicle by fusing low-cost onboard sensors in real-time?\nPlatform: Marjan-R1 ROV & Pose-estimation system · Status: In development & Pool testing · Researchers: Dr. Ali AlBeladi, Syed Imtiaz Ali Shah\nCurrent work and results We are fusing inertial, pressure, and sonar data, and fitting model parameters from experiments. We have successfully applied an Unscented Kalman Filter (UKF) for real-time hydrodynamic parameter estimation on Marjan-R1 during pool tests, allowing for real-time state feedback.\nTechnical details"
+    "text": "4. Underwater perception and state estimation\nHow can we accurately estimate the state of a compact marine vehicle by fusing low-cost onboard sensors in real-time?\nPlatform: Marjan-R1 ROV & Pose-estimation system · Status: In development & Pool testing · Researchers: Syed Imtiaz Ali Shah\nCurrent work and results We are fusing inertial, pressure, and sonar data, and fitting model parameters from experiments. We have successfully applied an Unscented Kalman Filter (UKF) for real-time hydrodynamic parameter estimation on Marjan-R1 during pool tests, allowing for real-time state feedback.\nTechnical details"
   },
   {
     "objectID": "research.html#environmental-sensing",
     "href": "research.html#environmental-sensing",
     "title": "Research",
     "section": "5. Marine and environmental sensing",
-    "text": "5. Marine and environmental sensing\nHow can spectral and geometric sensing identify materials, surfaces and environmental properties beyond conventional RGB imaging?\nPlatform: Benchtop hyperspectral imaging rig · Status: Laboratory system validated on the bench; not yet integrated with an underwater vehicle · Researchers: Dr. Ali AlBeladi\nCurrent work and results Development of an open-source pushbroom HSI platform and depth-aware HSI–RGB-D fusion for material association and 3D mapping.\nTechnical details"
+    "text": "5. Marine and environmental sensing\nHow can spectral and geometric sensing identify materials, surfaces and environmental properties beyond conventional RGB imaging?\nPlatform: Benchtop hyperspectral imaging rig · Status: Laboratory system validated on the bench; not yet integrated with an underwater vehicle · Researchers:\nCurrent work and results Development of an open-source pushbroom HSI platform and depth-aware HSI–RGB-D fusion for material association and 3D mapping.\nTechnical details"
   },
   {
     "objectID": "research.html#simulation-digital-twins",
     "href": "research.html#simulation-digital-twins",
     "title": "Research",
     "section": "6. Simulation and digital twins",
-    "text": "6. Simulation and digital twins\nHow can we test advanced controllers safely and efficiently before deployment in physical hardware trials?\nPlatform: Simulation and digital-twin environments · Status: Active · Researchers: Dr. Abdelhadi Aouaichia, Julio Zevallos, Dr. Ali AlBeladi\nCurrent work and results Simulation serves as the shared infrastructure supporting the other programs. We employ a replicable simulation-to-test framework using Gazebo/ROS 2 combined with CFD inputs to evaluate energy-aware control and disturbance rejection under simulated currents and noise.\nTechnical details · Publications"
+    "text": "6. Simulation and digital twins\nHow can we test advanced controllers safely and efficiently before deployment in physical hardware trials?\nPlatform: Simulation and digital-twin environments · Status: Active · Researchers: Dr. Abdelhadi Aouaichia, Julio Zevallos\nCurrent work and results Simulation serves as the shared infrastructure supporting the other programs. We employ a replicable simulation-to-test framework using Gazebo/ROS 2 combined with CFD inputs to evaluate energy-aware control and disturbance rejection under simulated currents and noise.\nTechnical details · Publications"
   },
   {
     "objectID": "platforms/simulation.html",
@@ -123,7 +123,7 @@
     "href": "people.html",
     "title": "People",
     "section": "",
-    "text": "LeadershipDr. Sarvat AhmadPrincipal InvestigatorControl & Instrumentation EngineeringDr. Ali AlBeladiCo-Principal InvestigatorElectrical EngineeringResearch focus. Underwater vehicles, bioinspired fish-like robotics, hyperspectral imaging systemsPostdoctoral researchersDr. Abdelhadi AouaichiaPostdoctoral ResearcherPhD studentsJulio ZevallosPhD StudentResearch focus. Modelling, control, underwater glidersTBTarique Bin HamidPhD StudentResearch focus. Modelling, system identification, ROVAdeel BashirPhD StudentResearch focus. State estimation, sensor fusion, underwater gliderMMMd. Masudur RahmanPhD StudentResearch focus. Control, ROVYoussief MorsyPhD StudentResearch focus. Vision-based control, ROVMS studentsAbdullah AlaviMS StudentResearch focus. Reinforcement learning, bioinspired roboticsJoshymar EcheverriaMS StudentResearch focus. Model-based control, bioinspired roboticsResearch engineersMKMasroor KhanResearch Engineer, Electro-MechanicalIAImtiaz AliResearch Engineer, Embedded Systems"
+    "text": "LeadershipDr. Sarvat AhmadNoneControl & Instrumentation EngineeringDr. Ali AlBeladiNoneElectrical EngineeringResearch focus. Underwater vehicles, bioinspired fish-like robotics, hyperspectral imaging systemsPostdoctoral researchersDr. Abdelhadi AouaichiaPostdoctoral ResearcherPhD studentsJulio ZevallosPhD StudentResearch focus. Modelling, control, underwater glidersTBTarique Bin HamidPhD StudentResearch focus. Modelling, system identification, ROVAdeel BashirPhD StudentResearch focus. State estimation, sensor fusion, underwater gliderMMMd. Masudur RahmanPhD StudentResearch focus. Control, ROVYoussief MorsyPhD StudentResearch focus. Vision-based control, ROVMS studentsAbdullah AlaviMS StudentResearch focus. Reinforcement learning, bioinspired roboticsJoshymar EcheverriaMS StudentResearch focus. Model-based control, bioinspired roboticsResearch engineersMKMasroor KhanResearch Engineer, Electro-MechanicalIAImtiaz AliResearch Engineer, Embedded Systems"
   },
   {
     "objectID": "join.html",
