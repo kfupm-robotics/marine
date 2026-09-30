@@ -5,7 +5,7 @@
 # For alumni add: years, now (current position).
 
 - name: Dr. Sarvat Ahmad
-  role: 
+  role: ""
   group: leadership
   dept: Control & Instrumentation Engineering
   photo: media/people/sarvat-ahmad.png
@@ -15,12 +15,12 @@
   hidden: false
 
 - name: Dr. Ali AlBeladi
-  role: 
+  role: ""
   group: leadership
   dept: Electrical Engineering
   photo: media/people/ali-albeladi.jpg
   bio: ""
-  focus: "Underwater vehicles, bioinspired fish-like robotics, hyperspectral imaging systems"
+  focus: ""
   links: {scholar: "", orcid: "", linkedin: "", github: ""}
   hidden: false
 
